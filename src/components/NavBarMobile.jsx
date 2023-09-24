@@ -1,14 +1,11 @@
-'use client';
-
 import Link from 'next/link';
 
 const NavBarMobile = (props) => {
   const { showMenu } = props;
-  console.log(showMenu);
 
   return (
     <ul
-      className={`transition-all absolute left-0 w-1/2 top-8 rounded-e-lg z-50 bg-[#c04848] p-4 flex flex-col items-center justify-center gap-4 h-1/4 ${
+      className={`flex transition-all absolute w-1/2 top-8 rounded-e-lg z-50 bg-[#c04848] p-4 flex-col items-center justify-center gap-4 h-1/4 ${
         showMenu ? 'left-0' : '-left-full'
       }`}
     >

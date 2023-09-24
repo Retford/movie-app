@@ -2,6 +2,8 @@
 import Link from 'next/link';
 import NavBarMobile from './NavBarMobile';
 import { useState } from 'react';
+import { RxCross1 } from 'react-icons/rx';
+import { GiHamburgerMenu } from 'react-icons/gi';
 
 const NavBar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -11,12 +13,12 @@ const NavBar = () => {
   return (
     <header>
       <nav className='flex justify-between items-center p-6 bg-[#480048] rounded text-white'>
-        <div class='text-white flex flex-grow justify-between items-center'>
+        <div className='text-white flex flex-grow justify-between items-center'>
           <Link href='/'>Inicio</Link>
 
           <NavBarMobile showMenu={showMenu} />
-          <button onClick={toggleMenu}>
-            {showMenu ? 'cerrado' : 'abierto'}
+          <button onClick={toggleMenu} className='lg:hidden text-xl font-black'>
+            {showMenu ? <RxCross1 /> : <GiHamburgerMenu />}
           </button>
         </div>
         <ul className='lg:flex gap-8 flex-wrap hidden'>
