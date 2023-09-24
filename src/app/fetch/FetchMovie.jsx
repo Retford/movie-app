@@ -42,3 +42,12 @@ export const FetchTrailerMovie = async ({ movieId }) => {
   const data = await res.json();
   return data;
 };
+
+export const FetchRepartoPrincipal = async ({ movieId }) => {
+  const res = await fetch(
+    `https://api.themoviedb.org/3/movie/${movieId}/credits?language=es-PE`,
+    options
+  );
+  const data = await res.json();
+  return data;
+};

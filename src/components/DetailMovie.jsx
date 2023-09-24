@@ -1,11 +1,13 @@
+'use client';
 import Image from 'next/image';
 import { format } from 'date-fns';
 import { es } from 'date-fns/locale';
 import { AiFillStar } from 'react-icons/ai';
+import YouTube from 'react-youtube';
+import { useState } from 'react';
+import RepartoPrincipal from './RepartoPrincipal';
 
-const DetailMovie = ({ detailMovie, trailerMovie }) => {
-  console.log({ detailMovie });
-  console.log({ trailerMovie });
+const DetailMovie = ({ detailMovie, trailerMovie, repartoPrincipal }) => {
   const {
     title,
     poster_path,
@@ -20,6 +22,10 @@ const DetailMovie = ({ detailMovie, trailerMovie }) => {
     original_language,
     original_title,
   } = detailMovie;
+
+  const { results } = trailerMovie;
+
+  const trailer = results.find((video) => (video.name = 'Tráiler Oficial'));
 
   const formattedDate = format(
     new Date(release_date),
@@ -45,8 +51,14 @@ const DetailMovie = ({ detailMovie, trailerMovie }) => {
   const respuestaAPI = original_language;
   const idiomaMostrado = transformarIdioma(respuestaAPI);
 
+  const [playerTrailer, setPlayerTrailer] = useState(false);
+
+  const toggleTrailer = () => {
+    setPlayerTrailer(!playerTrailer);
+  };
+
   return (
-    <main className='max-w-screen grid place-content-center xl:max-w-screen-xl xl:m-auto p-4 lg:pt-16 m-4'>
+    <main className='relative max-w-screen grid place-content-center xl:max-w-screen-xl xl:m-auto p-4 lg:pt-16 m-4'>
       <div className='flex gap-6 lg:gap-11 text-white flex-wrap lg:flex-nowrap justify-center'>
         <div className='overflow-hidden rounded-md h-[300px] w-[250px] md:min-w-[340px] block md:min-h-[510px] md:max-w-[340px] md:max-h-[510px] z-10'>
           <Image
@@ -105,8 +117,29 @@ const DetailMovie = ({ detailMovie, trailerMovie }) => {
             <div className='text-sm font-bold'>Título original: </div>
             <span className='text-ms'>{original_title}</span>
           </div>
+          <div>
+            <button className='text-sm font-bold' onClick={toggleTrailer}>
+              {playerTrailer ? (
+                <p className='bg-black text-white p-4 mb-3'>Cerrar Trailer</p>
+              ) : (
+                <p className='bg-white text-black p-4 mb-3 px-6'>Ver Trailer</p>
+              )}
+            </button>
+            {playerTrailer ? (
+              trailer ? (
+                <div className='w-[285px] h-auto overflow-auto lg:overflow-visible'>
+                  <YouTube videoId={trailer.key} />
+                </div>
+              ) : (
+                <h3 className='p-4 bg-white text-black text-center font-black m-1 rounded'>
+                  El trailer no está disponible
+                </h3>
+              )
+            ) : null}
+          </div>
         </div>
       </div>
+      <RepartoPrincipal repartoPrincipal={repartoPrincipal} />
     </main>
   );
 };
