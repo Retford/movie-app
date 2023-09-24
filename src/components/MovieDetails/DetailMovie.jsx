@@ -7,8 +7,15 @@ import YouTube from 'react-youtube';
 import { useState } from 'react';
 import RepartoPrincipal from './RepartoPrincipal';
 import { baseUrlImage } from '@/app/fetch/FetchMovie';
+import RecomendationsMovie from './RecomendationsMovie';
+import NotFound from '@/app/not-found';
 
-const DetailMovie = ({ detailMovie, trailerMovie, repartoPrincipal }) => {
+const DetailMovie = ({
+  detailMovie,
+  trailerMovie,
+  repartoPrincipal,
+  recommendationsMovie,
+}) => {
   const {
     title,
     poster_path,
@@ -24,7 +31,13 @@ const DetailMovie = ({ detailMovie, trailerMovie, repartoPrincipal }) => {
     original_title,
   } = detailMovie;
 
+  const [playerTrailer, setPlayerTrailer] = useState(false);
+
   const { results } = trailerMovie;
+
+  if (!results) {
+    return <NotFound />;
+  }
 
   const trailer = results.find((video) => (video.name = 'Tráiler Oficial'));
 
@@ -51,8 +64,6 @@ const DetailMovie = ({ detailMovie, trailerMovie, repartoPrincipal }) => {
 
   const respuestaAPI = original_language;
   const idiomaMostrado = transformarIdioma(respuestaAPI);
-
-  const [playerTrailer, setPlayerTrailer] = useState(false);
 
   const toggleTrailer = () => {
     setPlayerTrailer(!playerTrailer);
@@ -121,9 +132,13 @@ const DetailMovie = ({ detailMovie, trailerMovie, repartoPrincipal }) => {
           <div>
             <button className='text-sm font-bold' onClick={toggleTrailer}>
               {playerTrailer ? (
-                <p className='bg-[#c04848] rounded opacity-90 hover:opacity-100 text-white p-4 mb-3'>Cerrar Trailer</p>
+                <p className='bg-[#c04848] rounded opacity-90 hover:opacity-100 text-white p-4 mb-3'>
+                  Cerrar Trailer
+                </p>
               ) : (
-                <p className='bg-[#f07241] rounded text-white opacity-80 hover:opacity-100 hover:scale-x-105 p-4 mb-3 px-6'>Ver Trailer</p>
+                <p className='bg-[#f07241] rounded text-white opacity-80 hover:opacity-100 hover:scale-x-105 p-4 mb-3 px-6'>
+                  Ver Trailer
+                </p>
               )}
             </button>
             {playerTrailer ? (
@@ -141,6 +156,7 @@ const DetailMovie = ({ detailMovie, trailerMovie, repartoPrincipal }) => {
         </div>
       </div>
       <RepartoPrincipal repartoPrincipal={repartoPrincipal} />
+      <RecomendationsMovie recommendationsMovie={recommendationsMovie} />
     </main>
   );
 };

@@ -1,3 +1,6 @@
+export const baseUrlImage = 'https://image.tmdb.org/t/p/w500/';
+const baseUrlAPI = 'https://api.themoviedb.org/3/movie';
+
 const options = {
   method: 'GET',
   headers: {
@@ -8,19 +11,13 @@ const options = {
 };
 
 export const FetchMovieDetail = async ({ movieId }) => {
-  const res = await fetch(
-    `https://api.themoviedb.org/3/movie/${movieId}?language=es-PE`,
-    options
-  );
+  const res = await fetch(`${baseUrlAPI}/${movieId}?language=es-PE`, options);
   const data = res.json();
   return data;
 };
 
 export const DataCategory = async ({ category }) => {
-  const res = await fetch(
-    `https://api.themoviedb.org/3/movie/${category}?language=es-PE`,
-    options
-  );
+  const res = await fetch(`${baseUrlAPI}/${category}?language=es-PE`, options);
   const data = res.json();
   return data;
 };
@@ -36,7 +33,7 @@ export const ApiMovie = async () => {
 
 export const FetchTrailerMovie = async ({ movieId }) => {
   const res = await fetch(
-    `https://api.themoviedb.org/3/movie/${movieId}/videos?language=es-PE`,
+    `${baseUrlAPI}/${movieId}/videos?language=es-PE`,
     options
   );
   const data = await res.json();
@@ -45,11 +42,18 @@ export const FetchTrailerMovie = async ({ movieId }) => {
 
 export const FetchRepartoPrincipal = async ({ movieId }) => {
   const res = await fetch(
-    `https://api.themoviedb.org/3/movie/${movieId}/credits?language=es-PE`,
+    `${baseUrlAPI}/${movieId}/credits?language=es-PE`,
     options
   );
   const data = await res.json();
   return data;
 };
 
-export const baseUrlImage = 'https://image.tmdb.org/t/p/w500/';
+export const FetchMovieRecomendations = async ({ movieId }) => {
+  const res = await fetch(
+    `${baseUrlAPI}/${movieId}/recommendations?language=es-PE`,
+    options
+  );
+  const data = await res.json();
+  return data;
+};

@@ -1,13 +1,13 @@
-import React from 'react';
-import CardActor from './CardActor';
-
 import { Splide, SplideSlide, SplideTrack } from '@splidejs/react-splide';
 
-const RepartoPrincipal = ({ repartoPrincipal }) => {
-  const { cast } = repartoPrincipal;
+import CardRecomendation from './CardRecomendation';
+
+const RecomendationsMovie = ({ recommendationsMovie }) => {
+  const { results } = recommendationsMovie;
+  console.log(results);
   return (
-    <div className='text-white pt-16'>
-      <h3 className='font-bold text-3xl'>Reparto Principal</h3>
+    <section className='text-white pt-16'>
+      <h3 className='font-bold text-3xl'>Películas Recomendadas</h3>
       <Splide
         hasTrack={false}
         tag='section'
@@ -39,23 +39,23 @@ const RepartoPrincipal = ({ repartoPrincipal }) => {
             },
           },
         }}
-        aria-label='My Favorite'
+        aria-label='Actor'
       >
         <div className='custom-wrapper'>
           <div className='splide__progress'>
             <div className='splide__progress__bar' />
           </div>
           <SplideTrack>
-            {cast.map((actor) => (
-              <SplideSlide key={actor.id}>
-                <CardActor actor={actor} />
+            {results.map((movieRecomendation) => (
+              <SplideSlide key={movieRecomendation.id}>
+                <CardRecomendation movieRecomendation={movieRecomendation} />
               </SplideSlide>
             ))}
           </SplideTrack>
         </div>
       </Splide>
-    </div>
+    </section>
   );
 };
 
-export default RepartoPrincipal;
+export default RecomendationsMovie;

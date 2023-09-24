@@ -13,7 +13,7 @@ const NavBar = () => {
     setShowMenu(!showMenu);
   };
   return (
-    <header>
+    <header className='p-8'>
       <nav className='flex justify-between items-center p-6 bg-[#480048] rounded text-white'>
         <div className='text-white flex flex-grow justify-between items-center'>
           <Link href='/'>Inicio</Link>
