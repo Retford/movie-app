@@ -8,8 +8,8 @@ const NavBarMobile = (props) => {
 
   return (
     <ul
-      className={`flex gap-8 flex-wrap transition-all absolute left-0 w-1/2 top-10 ${
-        showMenu ? 'hidden' : 'flex'
+      className={`transition-all absolute left-0 w-1/2 top-8 rounded-e-lg z-50 bg-[#c04848] p-4 flex flex-col items-center justify-center gap-4 h-1/4 ${
+        showMenu ? 'left-0' : '-left-full'
       }`}
     >
       <li>
