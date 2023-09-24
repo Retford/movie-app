@@ -1,11 +1,16 @@
 import Image from 'next/image';
-import { FetchMovieDetail } from '../fetch/FetchMovie';
+import { FetchMovieDetail, FetchTrailerMovie } from '../fetch/FetchMovie';
 import DetailMovie from '@/components/DetailMovie';
 
 const page = async ({ params }) => {
   const detailMovie = await FetchMovieDetail(params);
+  const trailerMovie = await FetchTrailerMovie(params);
 
-  return <DetailMovie detailMovie={detailMovie} />;
+  return (
+    <>
+      <DetailMovie detailMovie={detailMovie} trailerMovie={trailerMovie} />
+    </>
+  );
 };
 
 export default page;

@@ -9,7 +9,7 @@ const options = {
 
 export const FetchMovieDetail = async ({ movieId }) => {
   const res = await fetch(
-    `https://api.themoviedb.org/3/movie/${movieId}?language=en-US`,
+    `https://api.themoviedb.org/3/movie/${movieId}?language=es-PE`,
     options
   );
   const data = res.json();
@@ -18,7 +18,7 @@ export const FetchMovieDetail = async ({ movieId }) => {
 
 export const DataCategory = async ({ category }) => {
   const res = await fetch(
-    `https://api.themoviedb.org/3/movie/${category}?language=en-US`,
+    `https://api.themoviedb.org/3/movie/${category}?language=es-PE`,
     options
   );
   const data = res.json();
@@ -27,7 +27,17 @@ export const DataCategory = async ({ category }) => {
 
 export const ApiMovie = async () => {
   const res = await fetch(
-    `https://api.themoviedb.org/3/discover/movie?api_key=${process.env.API_KEY}`
+    'https://api.themoviedb.org/3/discover/movie?include_adult=true&include_video=true&language=es-PE&page=1&sort_by=popularity.desc',
+    options
+  );
+  const data = await res.json();
+  return data;
+};
+
+export const FetchTrailerMovie = async ({ movieId }) => {
+  const res = await fetch(
+    `https://api.themoviedb.org/3/movie/${movieId}/videos?language=es-PE`,
+    options
   );
   const data = await res.json();
   return data;
