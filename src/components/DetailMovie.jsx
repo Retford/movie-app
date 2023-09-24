@@ -6,6 +6,7 @@ import { AiFillStar } from 'react-icons/ai';
 import YouTube from 'react-youtube';
 import { useState } from 'react';
 import RepartoPrincipal from './RepartoPrincipal';
+import { baseUrlImage } from '@/app/fetch/FetchMovie';
 
 const DetailMovie = ({ detailMovie, trailerMovie, repartoPrincipal }) => {
   const {
@@ -58,11 +59,11 @@ const DetailMovie = ({ detailMovie, trailerMovie, repartoPrincipal }) => {
   };
 
   return (
-    <main className='relative max-w-screen grid place-content-center xl:max-w-screen-xl xl:m-auto p-4 lg:pt-16 m-4'>
+    <main className='max-w-screen xl:max-w-screen-xl xl:m-auto p-4 lg:pt-16 m-4'>
       <div className='flex gap-6 lg:gap-11 text-white flex-wrap lg:flex-nowrap justify-center'>
         <div className='overflow-hidden rounded-md h-[300px] w-[250px] md:min-w-[340px] block md:min-h-[510px] md:max-w-[340px] md:max-h-[510px] z-10'>
           <Image
-            src={`https://image.tmdb.org/t/p/w500/${poster_path}`}
+            src={`${baseUrlImage}${poster_path}`}
             alt={id}
             height={500}
             width={500}
@@ -120,9 +121,9 @@ const DetailMovie = ({ detailMovie, trailerMovie, repartoPrincipal }) => {
           <div>
             <button className='text-sm font-bold' onClick={toggleTrailer}>
               {playerTrailer ? (
-                <p className='bg-black text-white p-4 mb-3'>Cerrar Trailer</p>
+                <p className='bg-[#c04848] rounded opacity-90 hover:opacity-100 text-white p-4 mb-3'>Cerrar Trailer</p>
               ) : (
-                <p className='bg-white text-black p-4 mb-3 px-6'>Ver Trailer</p>
+                <p className='bg-[#f07241] rounded text-white opacity-80 hover:opacity-100 hover:scale-x-105 p-4 mb-3 px-6'>Ver Trailer</p>
               )}
             </button>
             {playerTrailer ? (
@@ -131,7 +132,7 @@ const DetailMovie = ({ detailMovie, trailerMovie, repartoPrincipal }) => {
                   <YouTube videoId={trailer.key} />
                 </div>
               ) : (
-                <h3 className='p-4 bg-white text-black text-center font-black m-1 rounded'>
+                <h3 className='p-4 bg-white text-black text-center font-black m-1 rounded animate-pulse'>
                   El trailer no está disponible
                 </h3>
               )

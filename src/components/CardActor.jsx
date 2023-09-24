@@ -1,20 +1,29 @@
+import { baseUrlImage } from '@/app/fetch/FetchMovie';
 import Image from 'next/image';
 import React from 'react';
 
 const CardActor = ({ actor }) => {
   const { profile_path, name, character } = actor;
+
+  let pathUrlImage =
+    'https://www.themoviedb.org/assets/2/v4/glyphicons/basic/glyphicons-basic-38-picture-grey-c2ebdbb057f2a7614185931650f8cee23fa137b93812ccb132b9df511df1cfac.svg';
+  if (profile_path === null) {
+    pathUrlImage;
+  } else {
+    pathUrlImage = `${baseUrlImage}${profile_path}`;
+  }
   return (
-    <li className='inline-block rounded-xl overflow-hidden min-w-[150px]  md:max-w-[180px] md:min-w-[180px]'>
+    <>
       <Image
-        src={`https://image.tmdb.org/t/p/w500/${profile_path}`}
-        width={500}
-        height={500}
+        src={`${pathUrlImage}`}
+        width={200}
+        height={200}
         alt={name}
-        className='block w-full min-h-[200px] min-w-[150px] object-cover md:min-h-[200px] md:max-h-[250px] '
+        className='rounded-3xl object-cover h-[311px] w-[345px]'
       ></Image>
       <div>{character}</div>
       <span className='text-ms font-bold'>{name}</span>
-    </li>
+    </>
   );
 };
 

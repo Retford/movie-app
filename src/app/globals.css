@@ -5,3 +5,43 @@
 body {
   @apply bg-[#300030];
 }
+
+@import '@splidejs/react-splide/css';
+
+@import '@splidejs/react-splide/css/sea-green';
+
+.splide__pagination__page[type='button'] {
+  background-color: #f07241;
+}
+
+.splide__pagination__page:hover {
+  opacity: 1;
+}
+
+.splide__pagination__page {
+  height: 10px;
+  padding: 4px;
+  margin-inline: 10px;
+}
+
+.splide__pagination__page.is-active {
+  transform: scale(1.8);
+}
+
+.splide__arrow svg,
+.splide__arrow:hover:not(:disabled) svg {
+  fill: #f07241;
+}
+
+.splide__progress__bar {
+  background-color: #f07241;
+  height: 6px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+}
+
+@media (max-width: 1545px) {
+  .splide__pagination {
+    display: none;
+  }
+}

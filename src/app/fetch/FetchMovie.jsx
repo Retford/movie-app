@@ -51,3 +51,5 @@ export const FetchRepartoPrincipal = async ({ movieId }) => {
   const data = await res.json();
   return data;
 };
+
+export const baseUrlImage = 'https://image.tmdb.org/t/p/w500/';

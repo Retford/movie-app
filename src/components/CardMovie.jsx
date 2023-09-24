@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { AiFillStar } from 'react-icons/ai';
 import { format } from 'date-fns';
 import { es } from 'date-fns/locale';
+import { baseUrlImage } from '@/app/fetch/FetchMovie';
 
 const CardMovie = ({ results, params }) => {
   console.log(results);
@@ -23,7 +24,7 @@ const CardMovie = ({ results, params }) => {
               {params.category ? (
                 <Link href={`/${id}`}>
                   <Image
-                    src={`https://image.tmdb.org/t/p/w500/${poster_path}`}
+                    src={`${baseUrlImage}${poster_path}`}
                     alt={title}
                     width={500}
                     height={500}
@@ -33,7 +34,7 @@ const CardMovie = ({ results, params }) => {
               ) : (
                 <Link href={`/${id}`}>
                   <Image
-                    src={`https://image.tmdb.org/t/p/w500/${poster_path}`}
+                    src={`${baseUrlImage}${poster_path}`}
                     alt={title}
                     width={500}
                     height={500}
