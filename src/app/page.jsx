@@ -1,4 +1,4 @@
-import CardMovie from '@/components/CardMovie';
+import CardMovie from '@/components/Movie/CardMovie';
 import { ApiMovie } from './fetch/FetchMovie';
 
 const HomePage = async ({ params }) => {

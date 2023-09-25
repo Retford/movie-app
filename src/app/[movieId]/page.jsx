@@ -1,4 +1,5 @@
-import Image from 'next/image';
+
+import DetailMovie from '@/components/Movie/MovieDetails/DetailMovie';
 import {
   FetchMovieDetail,
   FetchMovieRecomendations,
@@ -6,7 +7,6 @@ import {
   FetchSimilarMovie,
   FetchTrailerMovie,
 } from '../fetch/FetchMovie';
-import DetailMovie from '@/components/MovieDetails/DetailMovie';
 
 const page = async ({ params }) => {
   const detailMovie = await FetchMovieDetail(params);

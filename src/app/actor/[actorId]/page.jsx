@@ -1,5 +1,5 @@
 import { FetchDetailActor } from '@/app/fetch/FetchMovie';
-import DetailActor from '@/components/ActorDetails/DetailActor';
+import DetailActor from '@/components/Movie/ActorDetails/DetailActor';
 
 const page = async ({ params }) => {
   const detailActor = await FetchDetailActor(params);

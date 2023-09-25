@@ -1,5 +1,5 @@
 import { DataCategory } from '@/app/fetch/FetchMovie';
-import CardMovie from '@/components/CardMovie';
+import CardMovie from '@/components/Movie/CardMovie';
 
 const PageMovie = async ({ params }) => {
   const { results } = await DataCategory(params);

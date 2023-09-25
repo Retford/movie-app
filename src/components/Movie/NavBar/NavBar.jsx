@@ -1,11 +1,11 @@
 'use client';
 import Link from 'next/link';
-import NavBarMobile from './NavBarMobile';
 import { useState } from 'react';
 import { RxCross1 } from 'react-icons/rx';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { BsSearch } from 'react-icons/bs';
 import { useParams } from 'next/navigation';
+import NavBarMobile from './NavBarMobile';
 
 const NavBar = () => {
   const params = useParams();
