@@ -99,7 +99,7 @@ const DetailMovie = ({
             </span>
           </div>
           <p className='font-bold text-sm opacity-75'>{tagline}</p>
-          <p class='font-bold text-xl'>Vista general</p>
+          <p className='font-bold text-xl'>Vista general</p>
           <p className='text-ms max-w-3xl'>{overview}</p>
           <div className='flex gap-2'>
             <p className='font-bold'>Estreno: </p>

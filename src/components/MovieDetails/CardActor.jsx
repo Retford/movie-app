@@ -21,7 +21,7 @@ const CardActor = ({ actor }) => {
         alt={name}
         className='rounded-3xl object-cover h-[311px] w-[345px]'
       ></Image>
-      <div>{character}</div>
+      <div className='pt-4'>{character}</div>
       <span className='text-ms font-bold'>{name}</span>
     </>
   );

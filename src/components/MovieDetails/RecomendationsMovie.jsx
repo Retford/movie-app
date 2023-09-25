@@ -3,8 +3,12 @@ import { Splide, SplideSlide, SplideTrack } from '@splidejs/react-splide';
 import CardRecomendation from './CardRecomendation';
 
 const RecomendationsMovie = ({ recommendationsMovie }) => {
-  const { results } = recommendationsMovie;
-  console.log(results);
+  const { results, total_pages } = recommendationsMovie;
+
+  if (total_pages === 0) {
+    return <></>;
+  }
+
   return (
     <section className='text-white pt-16'>
       <h3 className='font-bold text-3xl'>Películas Recomendadas</h3>
