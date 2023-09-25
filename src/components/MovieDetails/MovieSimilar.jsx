@@ -2,9 +2,9 @@ import { Splide, SplideSlide, SplideTrack } from '@splidejs/react-splide';
 import CardSimilar from './CardSimilar';
 
 const MovieSimilar = ({ similarMovie }) => {
-  const { results, total_pages } = similarMovie;
+  const { results, total_results } = similarMovie;
 
-  if (total_pages === 0) {
+  if (total_results === 0) {
     return <></>;
   }
 

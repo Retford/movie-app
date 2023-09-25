@@ -5,8 +5,7 @@ const options = {
   method: 'GET',
   headers: {
     accept: 'application/json',
-    Authorization:
-      'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhNWQ2OThiYzJhNjk4MDEyZjQzYmRmNDMwYzI0Zjc2MiIsInN1YiI6IjYzNjM0YzZjOWI4NjE2MDA5MGFmNDBiMCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.X282QNrrbzyhuCe_oboD_oMVU0OcMJIrK_XVPQ7qB5U',
+    Authorization: `Bearer ${process.env.API_AUTH_TOKEN}`,
   },
 };
 

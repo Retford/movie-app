@@ -7,7 +7,7 @@ import { baseUrlImage } from '@/app/fetch/FetchMovie';
 
 const CardMovie = ({ results, params }) => {
   return (
-    <main className='max-w-screen grid place-content-center xl:grid-cols-5 grid-cols-2 xl:max-w-screen-2xl xl:m-auto gap-3 p-4 lg:gap-0 lg:p-0'>
+    <main className='max-w-screen grid place-content-center lg:grid-cols-4 2xl:grid-cols-5 tablet:grid-cols-3 grid-cols-2 xl:max-w-screen-2xl xl:m-auto gap-3 p-4 lg:gap-0 lg:p-0'>
       {results.map(({ id, title, vote_average, poster_path, release_date }) => {
         const formattedDate = format(
           new Date(release_date),
@@ -16,7 +16,7 @@ const CardMovie = ({ results, params }) => {
         );
         return (
           <div
-            className='p-3 lg:m-3 text-black rounded-lg bg-[#601848] flex flex-col justify-center gap-4 xl:p-6 xl:m-6 overflow-hidden min-w-[150px] md:min-w-[210px]'
+            className='p-3 lg:m-3 text-black rounded-lg bg-[#601848] flex flex-col justify-center gap-4 xl:p-6 xl:m-6 overflow-hidden min-w-[150px] md:min-w-[210px] shadow-lg shadow-black'
             key={id}
           >
             <div className='relative w-full min-h-[225px] overflow-hidden md:min-w-[210px]'>

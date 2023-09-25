@@ -4,6 +4,7 @@ import NavBarMobile from './NavBarMobile';
 import { useState } from 'react';
 import { RxCross1 } from 'react-icons/rx';
 import { GiHamburgerMenu } from 'react-icons/gi';
+import { BsSearch } from 'react-icons/bs';
 import { useParams } from 'next/navigation';
 
 const NavBar = () => {
@@ -15,13 +16,36 @@ const NavBar = () => {
   return (
     <header className='p-8'>
       <nav className='flex justify-between items-center p-6 bg-[#480048] rounded text-white'>
-        <div className='text-white flex flex-grow justify-between items-center'>
+        <div className='text-white flex flex-grow justify-between items-center lg:flex-grow-0'>
           <Link href='/'>Inicio</Link>
-
+          <div className='lg:hidden relative sm:w-4/5 w-[70%]'>
+            <input
+              type='text'
+              className='text-black p-1 pl-3 outline-none rounded w-full'
+              placeholder='Buscar película'
+            />
+            <div className='font-black text-2xl absolute -top-1 -right-[2.5px] rounded-e border-none z-30 p-1 px-2 bg-[#300030]'>
+              <button>
+                <BsSearch />
+              </button>
+            </div>
+          </div>
           <NavBarMobile showMenu={showMenu} />
           <button onClick={toggleMenu} className='lg:hidden text-xl font-black'>
             {showMenu ? <RxCross1 /> : <GiHamburgerMenu />}
           </button>
+        </div>
+        <div className='hidden lg:flex lg:w-1/4 xl:w-1/3 2xl:w-1/2 lg:items-center bg-[#300030] rounded hover:shadow-md hover:shadow-[#300030]'>
+          <input
+            type='text'
+            className='text-black p-1 pl-3 outline-none rounded w-full'
+            placeholder='Buscar película'
+          />
+          <div className='text-2xl font-black p-1 px-2'>
+            <button>
+              <BsSearch />
+            </button>
+          </div>
         </div>
         <ul className='lg:flex gap-8 flex-wrap hidden'>
           {params.category === 'popular' ? (

@@ -97,7 +97,7 @@ const DetailActor = ({ detailActor }) => {
             </a>
           </div>
         </div>
-        <div className='flex flex-col gap-2 lg:min-w-[48rem]'>
+        <div className='flex flex-col gap-2 xl:max-w-2xl 2xl:min-w-[48rem]'>
           <div>
             <h1 className='font-bold text-3xl'>{name}</h1>
           </div>
