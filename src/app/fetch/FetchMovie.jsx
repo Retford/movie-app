@@ -24,7 +24,7 @@ export const DataCategory = async ({ category }) => {
 
 export const ApiMovie = async () => {
   const res = await fetch(
-    'https://api.themoviedb.org/3/discover/movie?include_adult=true&include_video=true&language=es-PE&page=1&sort_by=popularity.desc',
+    'https://api.themoviedb.org/3/discover/movie?include_video=true&language=es-PE&page=1&sort_by=popularity.desc',
     options
   );
   const data = await res.json();
@@ -54,6 +54,26 @@ export const FetchMovieRecomendations = async ({ movieId }) => {
     `${baseUrlAPI}/${movieId}/recommendations?language=es-PE`,
     options
   );
+  const data = await res.json();
+  return data;
+};
+
+export const FetchDetailActor = async ({ actorId }) => {
+  const res = await fetch(
+    `https://api.themoviedb.org/3/person/${actorId}?append_to_response=movie_credits%2Cexternal_ids&language=es-PE`,
+    options
+  );
+
+  const data = await res.json();
+  return data;
+};
+
+export const FetchSimilarMovie = async ({ movieId }) => {
+  const res = await fetch(
+    `${baseUrlAPI}/${movieId}/similar?language=es-PE`,
+    options
+  );
+
   const data = await res.json();
   return data;
 };

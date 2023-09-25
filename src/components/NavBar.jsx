@@ -27,7 +27,7 @@ const NavBar = () => {
           {params.category === 'popular' ? (
             <li>
               <Link
-                href='/peliculas/popular'
+                href='/pelicula/popular'
                 className='hover:text-black hover:bg-white py-2 px-4 hover:rounded hover:transition-colors transition-colors hover:duration-300 bg-red-500 rounded'
               >
                 Populares
@@ -36,7 +36,7 @@ const NavBar = () => {
           ) : (
             <li>
               <Link
-                href='/peliculas/popular'
+                href='/pelicula/popular'
                 className='hover:text-black hover:bg-white py-2 px-4 hover:rounded hover:transition-colors transition-colors hover:duration-300'
               >
                 Populares
@@ -46,7 +46,7 @@ const NavBar = () => {
           {params.category === 'now_playing' ? (
             <li>
               <Link
-                href='/peliculas/now_playing'
+                href='/pelicula/now_playing'
                 className='hover:text-black hover:bg-white py-2 px-4 hover:rounded hover:transition-colors transition-colors hover:duration-300 bg-red-500 rounded'
               >
                 En cartelera hoy
@@ -55,7 +55,7 @@ const NavBar = () => {
           ) : (
             <li>
               <Link
-                href='/peliculas/now_playing'
+                href='/pelicula/now_playing'
                 className='hover:text-black hover:bg-white py-2 px-4 hover:rounded hover:transition-colors transition-colors hover:duration-300'
               >
                 En cartelera hoy
@@ -65,7 +65,7 @@ const NavBar = () => {
           {params.category === 'upcoming' ? (
             <li>
               <Link
-                href='/peliculas/upcoming'
+                href='/pelicula/upcoming'
                 className='hover:text-black hover:bg-white py-2 px-4 hover:rounded hover:transition-colors transition-colors hover:duration-300 bg-red-500 rounded'
               >
                 Proximamente
@@ -74,7 +74,7 @@ const NavBar = () => {
           ) : (
             <li>
               <Link
-                href='/peliculas/upcoming'
+                href='/pelicula/upcoming'
                 className='hover:text-black hover:bg-white py-2 px-4 hover:rounded hover:transition-colors transition-colors hover:duration-300'
               >
                 Proximamente
@@ -84,7 +84,7 @@ const NavBar = () => {
           {params.category === 'top_rated' ? (
             <li>
               <Link
-                href='/peliculas/top_rated'
+                href='/pelicula/top_rated'
                 className='hover:text-black hover:bg-white py-2 px-4 hover:rounded hover:transition-colors transition-colors hover:duration-300 bg-red-500 rounded'
               >
                 Mejor valoradas
@@ -93,7 +93,7 @@ const NavBar = () => {
           ) : (
             <li>
               <Link
-                href='/peliculas/top_rated'
+                href='/pelicula/top_rated'
                 className='hover:text-black hover:bg-white py-2 px-4 hover:rounded hover:transition-colors transition-colors hover:duration-300'
               >
                 Mejor valoradas

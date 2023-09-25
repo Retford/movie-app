@@ -11,7 +11,7 @@ const NavBarMobile = (props) => {
     >
       <li>
         <Link
-          href='/peliculas/popular'
+          href='/pelicula/popular'
           className='hover:text-black hover:bg-white py-2 px-4 hover:rounded hover:transition-colors transition-colors hover:duration-300'
         >
           Populares
@@ -19,7 +19,7 @@ const NavBarMobile = (props) => {
       </li>
       <li>
         <Link
-          href='/peliculas/now_playing'
+          href='/pelicula/now_playing'
           className='hover:text-black hover:bg-white py-2 px-4 hover:rounded hover:transition-colors transition-colors hover:duration-300'
         >
           En cartelera hoy
@@ -27,7 +27,7 @@ const NavBarMobile = (props) => {
       </li>
       <li>
         <Link
-          href='/peliculas/upcoming'
+          href='/pelicula/upcoming'
           className='hover:text-black hover:bg-white py-2 px-4 hover:rounded hover:transition-colors transition-colors hover:duration-300'
         >
           Proximamente
@@ -35,7 +35,7 @@ const NavBarMobile = (props) => {
       </li>
       <li>
         <Link
-          href='/peliculas/top_rated'
+          href='/pelicula/top_rated'
           className='hover:text-black hover:bg-white py-2 px-4 hover:rounded hover:transition-colors transition-colors hover:duration-300'
         >
           Mejor valoradas

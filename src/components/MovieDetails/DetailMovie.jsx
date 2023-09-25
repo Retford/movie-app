@@ -9,16 +9,17 @@ import RepartoPrincipal from './RepartoPrincipal';
 import { baseUrlImage } from '@/app/fetch/FetchMovie';
 import RecomendationsMovie from './RecomendationsMovie';
 import NotFound from '@/app/not-found';
+import MovieSimilar from './MovieSimilar';
 
 const DetailMovie = ({
   detailMovie,
   trailerMovie,
   repartoPrincipal,
   recommendationsMovie,
+  similarMovie,
 }) => {
   const {
     title,
-    poster_path,
     id,
     genres,
     runtime,
@@ -30,6 +31,8 @@ const DetailMovie = ({
     original_language,
     original_title,
   } = detailMovie;
+
+  let { poster_path } = detailMovie;
 
   const [playerTrailer, setPlayerTrailer] = useState(false);
 
@@ -69,18 +72,27 @@ const DetailMovie = ({
     setPlayerTrailer(!playerTrailer);
   };
 
+  let postUrlImage =
+    'https://www.themoviedb.org/assets/2/v4/glyphicons/basic/glyphicons-basic-38-picture-grey-c2ebdbb057f2a7614185931650f8cee23fa137b93812ccb132b9df511df1cfac.svg';
+
+  if (poster_path === null) {
+    postUrlImage;
+  } else {
+    postUrlImage = `${baseUrlImage}${poster_path}`;
+  }
+
   return (
     <main className='max-w-screen xl:max-w-screen-xl xl:m-auto p-4 lg:pt-16 m-4'>
       <div className='flex gap-6 lg:gap-11 text-white flex-wrap lg:flex-nowrap justify-center'>
         <div className='overflow-hidden rounded-md h-[300px] w-[250px] md:min-w-[340px] block md:min-h-[510px] md:max-w-[340px] md:max-h-[510px] z-10'>
           <Image
-            src={`${baseUrlImage}${poster_path}`}
+            src={`${postUrlImage}`}
             alt={id}
             height={500}
             width={500}
           ></Image>
         </div>
-        <div className='flex flex-col gap-2'>
+        <div className='flex flex-col gap-2 lg:min-w-[48rem]'>
           <div>
             <h1 className='font-bold text-3xl'>{title}</h1>
           </div>
@@ -100,7 +112,7 @@ const DetailMovie = ({
           </div>
           <p className='font-bold text-sm opacity-75'>{tagline}</p>
           <p className='font-bold text-xl'>Vista general</p>
-          <p className='text-ms max-w-3xl'>{overview}</p>
+          <p className='text-ms'>{overview}</p>
           <div className='flex gap-2'>
             <p className='font-bold'>Estreno: </p>
             <p className='text-ms'>{formattedDate}</p>
@@ -157,6 +169,7 @@ const DetailMovie = ({
       </div>
       <RepartoPrincipal repartoPrincipal={repartoPrincipal} />
       <RecomendationsMovie recommendationsMovie={recommendationsMovie} />
+      <MovieSimilar similarMovie={similarMovie} />
     </main>
   );
 };
