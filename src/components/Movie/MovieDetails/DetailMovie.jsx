@@ -149,7 +149,7 @@ const DetailMovie = ({
             <div className='text-sm font-bold'>Título original: </div>
             <span className='text-ms'>{original_title}</span>
           </div>
-          <div>
+          <div className='max-w-xs'>
             <button className='text-sm font-bold' onClick={toggleTrailer}>
               {playerTrailer ? (
                 <p className='bg-[#c04848] rounded opacity-90 hover:opacity-100 text-white p-4 mb-3'>
@@ -163,7 +163,7 @@ const DetailMovie = ({
             </button>
             {playerTrailer ? (
               trailer ? (
-                <div className='w-[285px] h-auto overflow-auto lg:overflow-visible'>
+                <div className='w-[311px] sm:w-[576px] tablet:w-[511px] md:w-[704px] lg:w-[572px] xl:w-full h-auto overflow-auto xl:overflow-visible'>
                   <YouTube videoId={trailer.key} />
                 </div>
               ) : (

@@ -5,7 +5,7 @@ const NavBarMobile = (props) => {
 
   return (
     <ul
-      className={`flex transition-all absolute w-1/2 top-8 rounded-e-lg z-50 bg-[#c04848] p-4 flex-col items-center justify-center gap-4 h-1/4 ${
+      className={`flex transition-all absolute w-1/2 tablet:w-1/3 md:w-1/4 top-full rounded-e-lg z-50 bg-[#c04848] p-4 flex-col gap-8 pt-8 h-[calc(100vh-108px)] ${
         showMenu ? 'left-0' : '-left-full'
       }`}
     >

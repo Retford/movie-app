@@ -32,8 +32,8 @@ const NavBar = () => {
   };
 
   return (
-    <header className='p-8'>
-      <nav className='flex justify-between items-center p-6 bg-[#480048] rounded text-white'>
+    <header className='sticky top-0 z-50 lg:p-8 lg:static'>
+      <nav className='flex justify-between items-center p-6 bg-[#480048] lg:rounded rounded-b-none text-white'>
         <div className='text-white flex flex-grow justify-between items-center lg:flex-grow-0 gap-3'>
           <Link href='/'>
             <Image
