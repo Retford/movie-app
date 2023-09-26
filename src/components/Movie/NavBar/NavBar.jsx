@@ -4,28 +4,60 @@ import { useState } from 'react';
 import { RxCross1 } from 'react-icons/rx';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { BsSearch } from 'react-icons/bs';
-import { useParams } from 'next/navigation';
+import { useParams, useRouter } from 'next/navigation';
 import NavBarMobile from './NavBarMobile';
+import Image from 'next/image';
 
 const NavBar = () => {
+  const router = useRouter();
   const params = useParams();
   const [showMenu, setShowMenu] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
   const toggleMenu = () => {
     setShowMenu(!showMenu);
   };
+
+  const handleSearch = () => {
+    if (searchQuery === '') {
+      return;
+    }
+    router.push(`/search/search?query=${searchQuery}`);
+    setSearchQuery('');
+  };
+
+  const handleKeyPress = (e) => {
+    if (e.key === 'Enter') {
+      handleSearch();
+    }
+  };
+
   return (
     <header className='p-8'>
       <nav className='flex justify-between items-center p-6 bg-[#480048] rounded text-white'>
-        <div className='text-white flex flex-grow justify-between items-center lg:flex-grow-0'>
-          <Link href='/'>Inicio</Link>
+        <div className='text-white flex flex-grow justify-between items-center lg:flex-grow-0 gap-3'>
+          <Link href='/'>
+            <Image
+              src='/logo.png'
+              alt='MovieApp'
+              width={60}
+              height={60}
+              className='xl:ml-4 3xl:ml-14'
+            ></Image>
+          </Link>
           <div className='lg:hidden relative sm:w-4/5 w-[70%]'>
             <input
               type='text'
               className='text-black p-1 pl-3 outline-none rounded w-full'
               placeholder='Buscar película'
+              onChange={(e) => {
+                e.preventDefault();
+                return setSearchQuery(e.target.value);
+              }}
+              onKeyDown={handleKeyPress}
+              value={searchQuery}
             />
             <div className='font-black text-2xl absolute -top-1 -right-[2.5px] rounded-e border-none z-30 p-1 px-2 bg-[#300030]'>
-              <button>
+              <button onClick={handleSearch}>
                 <BsSearch />
               </button>
             </div>
@@ -40,9 +72,15 @@ const NavBar = () => {
             type='text'
             className='text-black p-1 pl-3 outline-none rounded w-full'
             placeholder='Buscar película'
+            onChange={(e) => {
+              e.preventDefault();
+              return setSearchQuery(e.target.value);
+            }}
+            onKeyDown={handleKeyPress}
+            value={searchQuery}
           />
           <div className='text-2xl font-black p-1 px-2'>
-            <button>
+            <button onClick={handleSearch}>
               <BsSearch />
             </button>
           </div>

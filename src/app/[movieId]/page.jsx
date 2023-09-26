@@ -1,4 +1,3 @@
-
 import DetailMovie from '@/components/Movie/MovieDetails/DetailMovie';
 import {
   FetchMovieDetail,
@@ -8,7 +7,7 @@ import {
   FetchTrailerMovie,
 } from '../fetch/FetchMovie';
 
-const page = async ({ params }) => {
+const PageMovieId = async ({ params }) => {
   const detailMovie = await FetchMovieDetail(params);
   const trailerMovie = await FetchTrailerMovie(params);
   const repartoPrincipal = await FetchRepartoPrincipal(params);
@@ -26,4 +25,4 @@ const page = async ({ params }) => {
   );
 };
 
-export default page;
+export default PageMovieId;

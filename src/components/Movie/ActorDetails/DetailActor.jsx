@@ -52,7 +52,7 @@ const DetailActor = ({ detailActor }) => {
     postUrlImage = `${baseUrlImage}${profile_path}`;
   }
 
-  if (birthday === null) {
+  if (birthday === null || birthday === undefined || birthday === '') {
     birthday = '1998-05-21';
   }
 
@@ -60,7 +60,7 @@ const DetailActor = ({ detailActor }) => {
     locale: es,
   });
 
-  if (place_of_birth === null) {
+  if (place_of_birth === null || place_of_birth === '') {
     place_of_birth = ' - ';
   }
 

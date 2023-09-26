@@ -1,7 +1,6 @@
 'use client';
 import Image from 'next/image';
-import { format } from 'date-fns';
-import { es } from 'date-fns/locale';
+
 import { AiFillStar } from 'react-icons/ai';
 import YouTube from 'react-youtube';
 import { useState } from 'react';
@@ -10,6 +9,8 @@ import { baseUrlImage } from '@/app/fetch/FetchMovie';
 import RecomendationsMovie from './RecomendationsMovie';
 import NotFound from '@/app/not-found';
 import MovieSimilar from './MovieSimilar';
+import { es } from 'date-fns/locale';
+import { format } from 'date-fns';
 
 const DetailMovie = ({
   detailMovie,
@@ -25,14 +26,13 @@ const DetailMovie = ({
     runtime,
     tagline,
     overview,
-    release_date,
     vote_average,
     spoken_languages,
     original_language,
     original_title,
   } = detailMovie;
 
-  let { poster_path } = detailMovie;
+  let { poster_path, release_date } = detailMovie;
 
   const [playerTrailer, setPlayerTrailer] = useState(false);
 
@@ -43,12 +43,6 @@ const DetailMovie = ({
   }
 
   const trailer = results.find((video) => (video.name = 'Tráiler Oficial'));
-
-  const formattedDate = format(
-    new Date(release_date),
-    "dd 'de' MMMM 'del' yyyy",
-    { locale: es }
-  );
 
   function transformarIdioma(idiomaAbreviado) {
     const idiomas = {
@@ -81,8 +75,22 @@ const DetailMovie = ({
     postUrlImage = `${baseUrlImage}${poster_path}`;
   }
 
+  if (
+    release_date === null ||
+    release_date === '' ||
+    release_date === undefined
+  ) {
+    release_date = '1998-05-21';
+  }
+
+  const formattedDate = format(
+    new Date(release_date),
+    "dd 'de' MMMM 'del' yyyy",
+    { locale: es }
+  );
+
   return (
-    <main className='max-w-screen xl:max-w-screen-xl xl:m-auto p-4 lg:pt-16 m-4'>
+    <main className='max-w-screen xl:max-w-screen-xl xl:m-auto p-4 lg:pt-16 m-4 min-h-[76.2vh]'>
       <div className='flex gap-6 lg:gap-11 text-white flex-wrap lg:flex-nowrap justify-center'>
         <div className='overflow-hidden rounded-md h-[300px] w-[250px] md:min-w-[340px] block md:min-h-[510px] md:max-w-[340px] md:max-h-[510px] z-10'>
           <Image

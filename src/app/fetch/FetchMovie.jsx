@@ -23,7 +23,7 @@ export const DataCategory = async ({ category }) => {
 
 export const ApiMovie = async () => {
   const res = await fetch(
-    'https://api.themoviedb.org/3/discover/movie?include_video=true&language=es-PE&page=1&sort_by=popularity.desc',
+    'https://api.themoviedb.org/3/discover/movie?language=es-PE',
     options
   );
   const data = await res.json();
@@ -70,6 +70,16 @@ export const FetchDetailActor = async ({ actorId }) => {
 export const FetchSimilarMovie = async ({ movieId }) => {
   const res = await fetch(
     `${baseUrlAPI}/${movieId}/similar?language=es-PE`,
+    options
+  );
+
+  const data = await res.json();
+  return data;
+};
+
+export const FetchSearchMovie = async (keyword) => {
+  const res = await fetch(
+    `https://api.themoviedb.org/3/search/movie?query=${keyword}&language=es-PE`,
     options
   );
 

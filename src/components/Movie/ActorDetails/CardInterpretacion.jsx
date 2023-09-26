@@ -13,7 +13,7 @@ const CardInterpretacion = ({ movieInterpretacion }) => {
   } else {
     postUrlImage = `${baseUrlImage}${poster_path}`;
   }
-  
+
   return (
     <>
       <Link href={`/${id}`}>

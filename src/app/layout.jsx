@@ -10,6 +10,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='es'>
+      <head>
+        <link rel='icon' type='image/png' href='/favicon.png' sizes='32x32' />
+      </head>
       <body>
         <NavBar />
         {children}

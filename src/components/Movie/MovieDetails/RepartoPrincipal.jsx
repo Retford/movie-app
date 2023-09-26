@@ -4,6 +4,10 @@ import { Splide, SplideSlide, SplideTrack } from '@splidejs/react-splide';
 
 const RepartoPrincipal = ({ repartoPrincipal }) => {
   const { cast } = repartoPrincipal;
+  if (cast.length === 0) {
+    return <></>;
+  }
+
   return (
     <section className='text-white pt-16'>
       <h3 className='font-bold text-3xl'>Reparto Principal</h3>
