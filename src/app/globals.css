@@ -45,3 +45,8 @@ body {
     display: none;
   }
 }
+
+::selection {
+  background: white;
+  color: #300030;
+}
