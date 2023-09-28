@@ -1,0 +1,1228 @@
+Array(20) [
+  {
+    adult: false,
+    gender: 1,
+    id: 1231,
+    known_for: [
+      {
+        adult: false,
+        backdrop_path: '/w9eBtIHHpGgGfjqnEAJM3s7mCOa.jpg',
+        genre_ids: [ 12, 28, 878 ],
+        id: 330,
+        media_type: 'movie',
+        original_language: 'en',
+        original_title: 'The Lost World: Jurassic Park',
+        overview: 
+          'Han pasado cuatro años desde la devastación del Parque Jurásico, y el Dr Malcom está a punto de descubrir que algo ha sobrevivido. En una isla de Costa Rica perteneciente a la Costa de las Cinco Muertes, los dinosaurios viven y se reproducen en libertad. Se trata de la llamada zona B: el lugar que servía como laboratorio genético. Después de que John Hammond llevara a la empresa a la bancarrota, su sobrino Peter ha tomado las riendas y está dispuesto a levantar la compañía explotando la peligrosa zona.',
+        poster_path: '/8oozgbwXq3IeUOyMeqLtfr0RzqS.jpg',
+        release_date: '1997-05-23',
+        title: 'El mundo perdido: Jurassic Park',
+        video: false,
+        vote_average: 6.5,
+        vote_count: 7738
+      },
+      {
+        adult: false,
+        backdrop_path: '/eVHVwP71el20fofkCHo78ebQv7Q.jpg',
+        genre_ids: [ 28, 12, 35 ],
+        id: 343668,
+        media_type: 'movie',
+        original_language: 'en',
+        original_title: 'Kingsman: The Golden Circle',
+        overview: 
+          'Cuando se produce un ataque contra el cuartel general de Kingsman y un nuevo villano se levanta, Eggsy y Merlin se ven obligados a trabajar junto con la agencia americana conocida como el Statesman para salvar al mundo.',
+        poster_path: '/d0tCSswCeMBzaDsyXc82qfDDvPD.jpg',
+        release_date: '2017-09-20',
+        title: 'Kingsman: El círculo de oro',
+        video: false,
+        vote_average: 7,
+        vote_count: 9555
+      },
+      {
+        adult: false,
+        backdrop_path: '/cWMeHXEGeZ8cjEOmznjVGr04Ofu.jpg',
+        genre_ids: [ 18 ],
+        id: 284293,
+        media_type: 'movie',
+        original_language: 'en',
+        original_title: 'Still Alice',
+        overview: 
+          'Alice Howland, felizmente casada con tres hijos ya adultos, es una reconocida profesora de lingüística que comienza a olvidarse de las palabras. Luego de recibir un diagnóstico devastador, Alice y su familia ponen a prueba sus vínculos.',
+        poster_path: '/4s6HstuVXYc40wnSJglrqqApJTu.jpg',
+        release_date: '2014-12-05',
+        title: 'Siempre Alice',
+        video: false,
+        vote_average: 7.5,
+        vote_count: 2874
+      }
+    ],
+    known_for_department: 'Acting',
+    name: 'Julianne Moore',
+    popularity: 259.072,
+    profile_path: '/3YF19rWusxWfEI59ZM33dFhasRq.jpg'
+  },
+  {
+    adult: false,
+    gender: 1,
+    id: 102050,
+    known_for: [
+      {
+        adult: false,
+        backdrop_path: '/prWk9ccgRdO7kNCVmckwoqhTHXO.jpg',
+        genre_ids: [ 80, 18, 10749 ],
+        id: 41782,
+        media_type: 'movie',
+        original_language: 'es',
+        original_title: 'Amantes',
+        overview: 
+          'Navidades de 1953. Paco termina el servicio militar y antes de regresar a su pueblo decide quedarse en Madrid y reunir el dinero necesario para casarse con su novia Trini. Así, se aloja en casa de Luisa, una misteriosa viuda con la que pronto empieza una apasionada relación. Paco cada vez se siente más atrapado en las redes de Luisa, así que tendrá que buscar una solución, por muy trágica que sea.',
+        poster_path: '/6KwOWdhLv5pcVPZfl5SUelrQ1sU.jpg',
+        release_date: '1991-02-23',
+        title: 'Amantes',
+        video: false,
+        vote_average: 6.6,
+        vote_count: 48
+      },
+      {
+        adult: false,
+        backdrop_path: '/5h5LjfoMghEuxDS1JCyQbHFuRde.jpg',
+        genre_ids: [ 27 ],
+        id: 28806,
+        media_type: 'movie',
+        original_language: 'es',
+        original_title: 'La mansión de los muertos vivientes',
+        overview: 
+          'Cuatro amigas, Tina, Vicky, Marta y María, camareras de un bar en Europa Central, van de vacaciones a una playa del sur, a través de una agencia de viajes. Sus ilusiones se ven pronto truncadas. El hotel en el que se hospedan es un lugar siniestro y desierto, cuyo propietario, Carlos, es un joven misterioso. Los más oscuros presagios se ciernen sobre las chicas, que descubren la vecindad de las ruinas de un antiguo Monasterio de Templarios, y en las noches de viento, los cuerpos de los monjes salen de sus tumbas para celebrar sangrientos ritos. (FILMAFFINITY)',
+        poster_path: '/nUg1PQcn5JFmRYr9QA9s1yiiFuW.jpg',
+        release_date: '1982-11-18',
+        title: 'La mansión de los muertos vivientes',
+        video: false,
+        vote_average: 4.4,
+        vote_count: 21
+      },
+      {
+        adult: false,
+        backdrop_path: '/aLfH5UtsCco66cd7ZsKJAPQ30XI.jpg',
+        genre_ids: [ 18 ],
+        id: 323912,
+        media_type: 'movie',
+        original_language: 'es',
+        original_title: 'Eugenie (Historia de una perversión)',
+        overview: 
+          'Una mujer muy aficionada a las lecturas del Marqués de Sade permite a un hombre seducirla con la única condición que acceda a que su bella y virginal hija pase un fin de semana con ella en su isla privada. Una vez allá, es drogada, torturada y obligada a participar en orgías sucias junto a otros invitados, bebiendo sangre y matando a un individuo.',
+        release_date: '1980-07-01',
+        title: 'Eugenie (Historia de una perversión)',
+        video: false,
+        vote_average: 5,
+        vote_count: 8
+      }
+    ],
+    known_for_department: 'Acting',
+    name: 'Mabel Escaño',
+    popularity: 239.637,
+    profile_path: '/ojVulUpslqp5zXA0GVpNZT1Pma4.jpg'
+  },
+  {
+    adult: false,
+    gender: 2,
+    id: 64,
+    known_for: [
+      {
+        adult: false,
+        backdrop_path: '/dqK9Hag1054tghRQSqLSfrkvQnA.jpg',
+        genre_ids: [ 18, 28, 80, 53 ],
+        id: 155,
+        media_type: 'movie',
+        original_language: 'en',
+        original_title: 'The Dark Knight',
+        overview: 
+          'Batman/Bruce Wayne regresa para continuar su guerra contra el crimen. Con la ayuda del teniente Jim Gordon y del Fiscal del Distrito Harvey Dent, Batman se propone destruir el crimen organizado en la ciudad de Gotham. El triunvirato demuestra su eficacia, pero, de repente, aparece Joker, un nuevo criminal que desencadena el caos y tiene aterrados a los ciudadanos.',
+        poster_path: '/8QDQExnfNFOtabLDKqfDQuHDsIg.jpg',
+        release_date: '2008-07-16',
+        title: 'El caballero oscuro',
+        video: false,
+        vote_average: 8.5,
+        vote_count: 30611
+      },
+      {
+        adult: false,
+        backdrop_path: '/c3OHQncTAnKFhdOTX7D3LTW6son.jpg',
+        genre_ids: [ 28, 80, 18, 53 ],
+        id: 49026,
+        media_type: 'movie',
+        original_language: 'en',
+        original_title: 'The Dark Knight Rises',
+        overview: 
+          'Hace ocho años que Batman desapareció, dejando de ser un héroe para convertirse en un fugitivo. Al asumir la culpa por la muerte del fiscal del distrito Harvey Dent, el Caballero Oscuro decidió sacrificarlo todo por lo que consideraba, al igual que el Comisario Gordon, un bien mayor. La mentira funciona durante un tiempo, ya que la actividad criminal de la ciudad de Gotham se ve aplacada gracias a la dura Ley Dent. Pero todo cambia con la llegada de una astuta gata ladrona que pretende llevar a cabo un misterioso plan. Sin embargo, mucho más peligrosa es la aparición en escena de Bane, un terrorista enmascarado cuyos despiadados planes obligan a Bruce a regresar de su voluntario exilio.',
+        poster_path: '/rrS7K8tXVFUBliIKWaRuSq65nWr.jpg',
+        release_date: '2012-07-17',
+        title: 'El caballero oscuro: La leyenda renace',
+        video: false,
+        vote_average: 7.8,
+        vote_count: 21332
+      },
+      {
+        adult: false,
+        backdrop_path: '/zXwFJMwvQcJFitP9GcHZvHAHGe8.jpg',
+        genre_ids: [ 18, 36 ],
+        id: 399404,
+        media_type: 'movie',
+        original_language: 'en',
+        original_title: 'Darkest Hour',
+        overview: 
+          'En mayo de 1940 el destino de Europa occidental depende del primer ministro británico Winston Churchill, quien debe decidir si negociar con Adolf Hitler o luchar sabiendo que podría significar una derrota humillante para Gran Bretaña y su imperio.',
+        poster_path: '/bvfIACbN7YtScwvEt0UhGsheWae.jpg',
+        release_date: '2017-11-22',
+        title: 'El instante más oscuro',
+        video: false,
+        vote_average: 7.4,
+        vote_count: 4760
+      }
+    ],
+    known_for_department: 'Acting',
+    name: 'Gary Oldman',
+    popularity: 185.954,
+    profile_path: '/yhaSM5habNNI1Tf4ALRwRk3VvSZ.jpg'
+  },
+  {
+    adult: false,
+    gender: 2,
+    id: 58021,
+    known_for: [
+      {
+        adult: false,
+        backdrop_path: '/6UDep1cxHQqrNFhSW4ZNQLW3Alr.jpg',
+        genre_ids: [ 18, 36, 10749 ],
+        id: 9453,
+        media_type: 'movie',
+        original_language: 'en',
+        original_title: 'Caligola',
+        overview: 
+          'Producida por la revista para adultos "Penthouse", un drama de muy alto contenido erótico que narra el ascenso y caída del emperador romano Calígula (12 D.C-41 D.C), sobrino e hijo adoptivo del emperador Tiberio. Sus crueles métodos para ascender al trono y su afición por todo tipo de orgías, humillaciones y demás vejaciones centran una polémica película con conocidos -y reputados- actores entre su reparto.',
+        poster_path: '/bLSRsi5xN0vuF3cqbkVqB82xFrM.jpg',
+        release_date: '1979-08-14',
+        title: 'Calígula',
+        video: false,
+        vote_average: 6,
+        vote_count: 728
+      },
+      {
+        adult: false,
+        backdrop_path: '/9CkI4VsYF8qJWfZpPqwZnBctb3M.jpg',
+        genre_ids: [ 18 ],
+        id: 50270,
+        media_type: 'movie',
+        original_language: 'it',
+        original_title: 'Paprika',
+        overview: 
+          'Mimma es una joven de campo, llena de encantos, que se prostituye durante una quincena para ayudar económicamente a su novio; un trabajo que le vale el sobrenombre de Paprika, dado por la madame, y al que su novio la empuja engañada. Enterada del engaño, Mimma intenta huir, pero él amenaza con devolverla a su pueblo con un informe.',
+        poster_path: '/Aj6VkgTquTfsq1GgWWLZ9IgX6wn.jpg',
+        release_date: '1991-02-13',
+        title: 'Los burdeles de Paprika',
+        video: false,
+        vote_average: 7.1,
+        vote_count: 360
+      },
+      {
+        adult: false,
+        backdrop_path: '/9UoAp9XEfa9u9mKNUeS2tRRYVEZ.jpg',
+        genre_ids: [ 18, 10749 ],
+        id: 28468,
+        media_type: 'movie',
+        original_language: 'it',
+        original_title: 'La chiave',
+        overview: 
+          'Nino es un hombre mayor que está casado con una bella joven. El tipo no está muy satisfecho con su vida sexual, pero una posibilidad de cambio se abre una noche que sorprende a su esposa dormida.',
+        poster_path: '/bnmudxmnY8iVdyaMEfZ9j8D9d17.jpg',
+        release_date: '1983-10-19',
+        title: 'La llave secreta',
+        video: false,
+        vote_average: 6,
+        vote_count: 354
+      }
+    ],
+    known_for_department: 'Directing',
+    name: 'Tinto Brass',
+    popularity: 122.139,
+    profile_path: '/adQ1j2FQ1FZ67hlZVhsUnALM4G4.jpg'
+  },
+  {
+    adult: false,
+    gender: 1,
+    id: 1568101,
+    known_for: [
+      {
+        adult: false,
+        backdrop_path: '/ty07O9dxVktYaQD1SLdKS20mr79.jpg',
+        genre_ids: [ 9648, 27 ],
+        id: 591274,
+        media_type: 'movie',
+        original_language: 'en',
+        original_title: 'Fear Street: 1978',
+        overview: 
+          'En 1978, Camp Nightwing está dividido en campistas que vinieron del pueblo oprimido de Shadyside y consejeros que vinieron del próspero pueblo de Sunnyvale. Cuando los horrores del pasado de ambos pueblos cogen fuerza, estos dos grupos deberán unirse para resolver un misterio terrorífico.',
+        poster_path: '/jPcLH9QHrRb9ZRplxWOMO38ImL8.jpg',
+        release_date: '2021-07-08',
+        title: 'La calle del terror - Parte 2: 1978',
+        video: false,
+        vote_average: 7.2,
+        vote_count: 1682
+      },
+      {
+        adult: false,
+        backdrop_path: '/6viJBbovWxJYavdjPy7UPTLvaOS.jpg',
+        genre_ids: [ 9648, 27 ],
+        id: 591275,
+        media_type: 'movie',
+        original_language: 'en',
+        original_title: 'Fear Street: 1666',
+        overview: 
+          'En 1666, Deena descubre la verdad sobre Sarah Fier. De nuevo en 1994, los amigos luchan por sus vidas... y por el futuro de Shadyside.',
+        poster_path: '/ouTHprNeiOYDS5zw5x7wrBF79q7.jpg',
+        release_date: '2021-07-14',
+        title: 'La calle del terror - Parte 3: 1666',
+        video: false,
+        vote_average: 7.2,
+        vote_count: 1501
+      },
+      {
+        backdrop_path: '/aRKQdF6AGbhnF9IAyJbte5epH5R.jpg',
+        first_air_date: '2023-08-31',
+        genre_ids: [ 10759, 10765 ],
+        id: 111110,
+        media_type: 'tv',
+        name: 'ONE PIECE',
+        origin_country: [ 'US' ],
+        original_language: 'en',
+        original_name: 'ONE PIECE',
+        overview: 
+          'El joven pirata Monkey D. Luffy y su variopinta tripulación emprenden un viaje épico en busca de un tesoro.',
+        poster_path: '/fsQ2KHbZk12z3h3dba2ActMEudj.jpg',
+        vote_average: 8.3,
+        vote_count: 621
+      }
+    ],
+    known_for_department: 'Acting',
+    name: 'Emily Rudd',
+    popularity: 118.041,
+    profile_path: '/y23GTdDPcryBVtSWjY9q2O9nzwV.jpg'
+  },
+  {
+    adult: false,
+    gender: 2,
+    id: 77996,
+    known_for: [
+      {
+        adult: false,
+        backdrop_path: '/jlh5bNiSPcbQ79Nt31kE2GxIR3h.jpg',
+        genre_ids: [ 12, 18, 10751 ],
+        id: 44826,
+        media_type: 'movie',
+        original_language: 'en',
+        original_title: 'Hugo',
+        overview: 
+          '\'La invención de Hugo\' cuenta la historia de Hugo Cabret (Asa Butterflied, \'El niño con el pijama a rayas\'), un niño huérfano que vive oculto en la estación de tren de París, en el año 1930.  Hijo de un relojero, y habiendo heredado su habilidad con la precisión para las máquinas, intentará reconstruir un autómata que dejó incompleto su progenitor. Lo hará acompañado de una excéntrica niña, Isabelle (Chloë Grace Moretz, \'Kick Ass. Listos para machacar\') y de un viejo juguetero (Ben Kingsley, \'La lista de Schlinder\'), que no es otro que George Méliès. A partir de el momento que se encuentren, se internarán juntos en un mundo inesperado repleto de fantasías en el que cada uno encontrará sus propias respuestas a los enigmas tanto terrenales como de su imaginación. En la era de los inventos, de las máquinas y de la ciencia ficción, todo es posible, incluso que los sueños se hagan realidad.',
+        poster_path: '/7L5HFJc2X1GzkEuO25Vjo4BtOZm.jpg',
+        release_date: '2011-11-22',
+        title: 'La invención de Hugo',
+        video: false,
+        vote_average: 7.2,
+        vote_count: 6758
+      },
+      {
+        backdrop_path: '/jKbqVjCOOL2P8cP1VNxbC2h31Re.jpg',
+        first_air_date: '2019-01-11',
+        genre_ids: [ 35, 18 ],
+        id: 81356,
+        media_type: 'tv',
+        name: 'Sex Education',
+        origin_country: [ 'GB' ],
+        original_language: 'en',
+        original_name: 'Sex Education',
+        overview: 
+          'Como el inseguro de Otis tiene respuesta para cualquier duda sobre sexo gracias a que su madre es sexóloga, una compañera lo anima a abrir una "clínica" en el instituto.',
+        poster_path: '/6eGNE3huNFjBe5Zayx3XFqII7nL.jpg',
+        vote_average: 8.3,
+        vote_count: 6590
+      },
+      {
+        adult: false,
+        backdrop_path: '/7fJAYM0rhzpEhCK6wxbQ412EoYW.jpg',
+        genre_ids: [ 10752, 18, 36 ],
+        id: 14574,
+        media_type: 'movie',
+        original_language: 'en',
+        original_title: 'The Boy in the Striped Pyjamas',
+        overview: 
+          'Berlín, 1942. Bruno tiene ocho años y desconoce el significado de la Solución Final y del Holocausto. No es consciente de las pavorosas crueldades que su país, en plena guerra mundial, está infligiendo a los pueblos de Europa. Todo lo que sabe es que su padre -recién nombrado comandante de un campo de concentración- ha ascendido en el escalafón, y que ha pasado de vivir en una confortable casa de Berlín a una zona aislada. Todo cambia cuando conoce a Shamuel, un niño judío que vive una extraña existencia paralela al otro lado de la alambrada.',
+        poster_path: '/dZeiD0WVM1IHzRAOSldsY0jh1CR.jpg',
+        release_date: '2008-05-07',
+        title: 'El niño con el pijama de rayas',
+        video: false,
+        vote_average: 7.8,
+        vote_count: 6540
+      }
+    ],
+    known_for_department: 'Acting',
+    name: 'Asa Butterfield',
+    popularity: 101.064,
+    profile_path: '/1kfN6DTHh4lRyGTzkdarvNlFcBh.jpg'
+  },
+  {
+    adult: false,
+    gender: 2,
+    id: 976,
+    known_for: [
+      {
+        adult: false,
+        backdrop_path: '/ysKahAEPP8h6MInuLjr0xuZOTjh.jpg',
+        genre_ids: [ 80, 35 ],
+        id: 107,
+        media_type: 'movie',
+        original_language: 'en',
+        original_title: 'Snatch',
+        overview: 
+          'Franky es una ladrón de diamantes que tiene que entregar una enorme pieza a su jefe Avi, pero en el camino es tentado por Boris para apostar en un combate ilegal de boxeo. En realidad, es una trampa para atracarle por lo que, cuando Avi se entera, contrata a Tony para encontrar a Franky y el diamante. Pronto se descubre el triste destino de Franky, y la caza y captura de la gema desaparecida lleva a todo el mundo a un juego de locos que corre el riesgo de descontrolarse, donde el engaño, el chantaje y el fraude se mezclan de forma sangrienta con perros, diamantes, boxeadores y gran variedad de armas en una caótica merienda de negros.',
+        poster_path: '/uk8MKxYrKzaH8blos3tGkP7JBlY.jpg',
+        release_date: '2000-09-01',
+        title: 'Snatch: Cerdos y diamantes',
+        video: false,
+        vote_average: 7.8,
+        vote_count: 8305
+      },
+      {
+        adult: false,
+        backdrop_path: '/uN005iCKRR900Xhx0HEvU4MbYN1.jpg',
+        genre_ids: [ 28, 878, 27 ],
+        id: 345940,
+        media_type: 'movie',
+        original_language: 'en',
+        original_title: 'The Meg',
+        overview: 
+          'Un sumergible de aguas profundas que forma parte de un programa internacional de vigilancia submarina, ha sido atacado por una enorme criatura que se creía extinta. Ahora está averiado en el fondo de la fosa oceánica más profunda del Pacífico con su tripulación atrapada en el interior. El tiempo se acaba y, en contra de los deseos de su hija Suyin (Li Bingbing), un visionario oceanógrafo chino (Winston Chao) contrata a Jonas Taylor (Jason Statham), un especialista en rescate en aguas profundas. Su misión será salvar a la tripulación y también al océano de una amenaza imparable: un tiburón prehistórico de 23 metros conocido con el nombre de Megalodón.',
+        poster_path: '/pQARFwPxjZ04ylcE5PmWfqQI1Jw.jpg',
+        release_date: '2018-08-09',
+        title: 'Megalodón',
+        video: false,
+        vote_average: 6.3,
+        vote_count: 7012
+      },
+      {
+        adult: false,
+        backdrop_path: '/kWt1OcPgwO1ssu57wgTKmq38JYw.jpg',
+        genre_ids: [ 28, 80, 53 ],
+        id: 4108,
+        media_type: 'movie',
+        original_language: 'en',
+        original_title: 'The Transporter',
+        overview: 
+          'El ex operador de Fuerzas Especiales Frank Martin vive lo que parece ser una vida tranquila a orillas del Mediterráneo francés, donde presta sus servicios como un “transportador”, un mercenario que traslada bienes —humanos o de cualquier tipo— de un lugar a otro. Siempre sin preguntas de por medio. Frank, que en su Mercedes equipado lleva a cabo misiones secretas y a veces peligrosas, se apega a un estricto juego de 3 reglas que nunca rompe. Regla numero uno: Nunca modifiques el trato. Dos: Omitir nombres, Frank no quiere saber para quién trabaja o qué es lo que transporta. Tres: Nunca ver qué hay dentro del paquete. La carga más reciente de Frank aparenta ser igual a los incontables paquetes que ha entregado en el pasado. Ha sido contratado por un norteamericano conocido solamente como “Wall Street” para que lleve a cabo una entrega. Pero cuando Frank se detiene en el trayecto, se percata que su “paquete” se mueve...',
+        poster_path: '/flOR63degbHkVlL7BYoe0Eyhzrw.jpg',
+        release_date: '2002-10-02',
+        title: 'Transporter',
+        video: false,
+        vote_average: 6.7,
+        vote_count: 4901
+      }
+    ],
+    known_for_department: 'Acting',
+    name: 'Jason Statham',
+    popularity: 160.106,
+    profile_path: '/lldeQ91GwIVff43JBrpdbAAeYWj.jpg'
+  },
+  {
+    adult: false,
+    gender: 1,
+    id: 1243496,
+    known_for: [
+      {
+        adult: false,
+        backdrop_path: '/oMaj75G2WFw66xI1TREg1hrToSg.jpg',
+        genre_ids: [ 28, 14, 878, 12 ],
+        id: 268896,
+        media_type: 'movie',
+        original_language: 'en',
+        original_title: 'Pacific Rim: Uprising',
+        overview: 
+          'Un futuro cercano. Después de la primera invasión que sufrió la humanidad, la lucha aun no ha terminado. El planeta vuelve a ser asediado por los Kaiju, una raza de alienígenas colosales que emergen desde un portal interdimensional, con el objetivo de destruir a la raza humana.  Ante esta nueva amenaza para la cual los humanos no están preparados, los Jaegers, robots gigantes de guerra pilotados por dos personas para sobrellevar la inmensa carga neural que conlleva manipularlos, ya no están a la altura de lo que se les viene encima. Será entonces cuando los supervivientes de la primera invasión, además de nuevos personajes como el hijo de Pentecost (John Boyega), tendrán que idear la manera de sorprender al enorme enemigo, apostando por nuevas estrategias defensivas y de ataque. Con la Tierra en ruinas e intentando reconstruirse, esta nueva batalla puede ser decisiva para el futuro.',
+        poster_path: '/cAQRgMxyuy3qhjCitR0hHJhEPAI.jpg',
+        release_date: '2018-03-21',
+        title: 'Pacific Rim: Insurrección',
+        video: false,
+        vote_average: 6.1,
+        vote_count: 4525
+      },
+      {
+        adult: false,
+        backdrop_path: '/uN6v3Hz4qI2CIqT1Ro4vPgAbub3.jpg',
+        genre_ids: [ 28, 35 ],
+        id: 454992,
+        media_type: 'movie',
+        original_language: 'en',
+        original_title: 'The Spy Who Dumped Me',
+        overview: 
+          'Audrey y Morgan son dos amigas que se ven involucradas en una conspiración internacional cuando una de ellas descubre que su ex-novio era en realidad un espía.',
+        poster_path: '/1hlGrXXby3mxdlmFKksDRvfOtAe.jpg',
+        release_date: '2018-08-02',
+        title: 'El espía que me plantó',
+        video: false,
+        vote_average: 6.4,
+        vote_count: 2083
+      },
+      {
+        adult: false,
+        backdrop_path: '/gLdA68XBderx3hkHyiYUSI5QdL8.jpg',
+        genre_ids: [ 27, 53 ],
+        id: 720395,
+        media_type: 'movie',
+        original_language: 'en',
+        original_title: 'Let It Snow',
+        overview: 
+          'Separada de su prometido tras haberse colado en una pista de esquí restringida, Mia, una snowboarder profesional, debe sobrevivir no sólo a la naturaleza, sino también a un conductor de trineo enmascarado que parece estar sediento de sangre.',
+        poster_path: '/rAeQaySpt5iSdK8eWOpBnSB8mGQ.jpg',
+        release_date: '2020-08-26',
+        title: 'Let It Snow',
+        video: false,
+        vote_average: 5.3,
+        vote_count: 81
+      }
+    ],
+    known_for_department: 'Acting',
+    name: 'Ivanna Sakhno',
+    popularity: 116.152,
+    profile_path: '/uEzQ9nb3uKD68HopNtCrsRyd4aL.jpg'
+  },
+  {
+    adult: false,
+    gender: 1,
+    id: 3194176,
+    known_for: [
+      {
+        adult: false,
+        backdrop_path: '/27bkw4o1zhjQAM4WIFQPohiph1X.jpg',
+        genre_ids: [ 18, 53 ],
+        id: 931599,
+        media_type: 'movie',
+        original_language: 'tl',
+        original_title: 'Silip Sa Apoy',
+        overview: '',
+        poster_path: '/9grG4PVppBWqKs2hrKMEr6j3RWS.jpg',
+        release_date: '2022-01-28',
+        title: 'Silip Sa Apoy',
+        video: false,
+        vote_average: 6,
+        vote_count: 26
+      },
+      {
+        adult: false,
+        backdrop_path: '/ru5zAV1Ij6bQGedBkczqhiBmjzn.jpg',
+        genre_ids: [ 18 ],
+        id: 1029446,
+        media_type: 'movie',
+        original_language: 'tl',
+        original_title: 'Selina\'s Gold',
+        overview: 
+          'El padre de Selina la vende a Tiago, quien la convierte en esclava sexual. Con la ayuda de Domeng, el esclavo ciego de Tiago, planea su salida de este infierno.',
+        poster_path: '/4a0X2GKDmhhp1U2FUKtKY6uNQHL.jpg',
+        release_date: '2022-10-28',
+        title: 'Selina\'s Gold',
+        video: false,
+        vote_average: 7.1,
+        vote_count: 25
+      },
+      {
+        adult: false,
+        backdrop_path: '/ougkufYSiruP8jrEHQanXN7DxRv.jpg',
+        genre_ids: [ 18, 10749 ],
+        id: 893694,
+        media_type: 'movie',
+        original_language: 'tl',
+        original_title: 'Eva',
+        overview: '',
+        poster_path: '/bXZ3j3kQgCRZj7KD4Q5F9m5ABaQ.jpg',
+        release_date: '2021-12-24',
+        title: 'Eva',
+        video: false,
+        vote_average: 5.7,
+        vote_count: 10
+      }
+    ],
+    known_for_department: 'Acting',
+    name: 'Angeli Khang',
+    popularity: 100.315,
+    profile_path: '/fpZfoK4ANjaRegAcAZkKVIj94kR.jpg'
+  },
+  {
+    adult: false,
+    gender: 1,
+    id: 2275144,
+    known_for: [
+      {
+        backdrop_path: '/sa9vB0xb3OMU6iSMkig8RBbdESq.jpg',
+        first_air_date: '2023-07-23',
+        genre_ids: [ 18 ],
+        id: 113962,
+        media_type: 'tv',
+        name: 'Operaciones especiales: Lioness',
+        origin_country: [ 'US' ],
+        original_language: 'en',
+        original_name: 'Special Ops: Lioness',
+        overview: 
+          'Cruz Manuelos, una joven infante de marina ruda pero apasionada, es reclutada para unirse al Equipo Lioness Engagement de la CIA para ayudar a acabar con una organización terrorista desde adentro. Joe, el jefe de estación del programa Lioness, tiene la tarea de capacitar, administrar y liderar a sus agentes encubiertos.',
+        poster_path: '/rXCzevakJoAN1qnZY0nAQPSLVRv.jpg',
+        vote_average: 8.4,
+        vote_count: 331
+      },
+      {
+        adult: false,
+        backdrop_path: '/z71mEYV0JRHOi1XfBU1F1hmCSvV.jpg',
+        genre_ids: [ 10749, 35 ],
+        id: 1001811,
+        media_type: 'movie',
+        original_language: 'en',
+        original_title: 'My Big Fat Greek Wedding 3',
+        overview: 
+          'La familia Portokalos viaja a Grecia para asistir a una reunión familiar en un viaje conmovedor e hilarante lleno de amor, giros y sorpresas.',
+        poster_path: '/sELPfcRyVmqncxbHCd1Lxc8HdXD.jpg',
+        release_date: '2023-09-07',
+        title: 'Mi gran boda griega 3',
+        video: false,
+        vote_average: 5.6,
+        vote_count: 14
+      },
+      {
+        backdrop_path: '/uQUHCqxHsG9blvtCoL7vluMG9Jp.jpg',
+        first_air_date: '2021-12-19',
+        genre_ids: [ 18, 37 ],
+        id: 118357,
+        media_type: 'tv',
+        name: '1883',
+        origin_country: [ 'US' ],
+        original_language: 'en',
+        original_name: '1883',
+        overview: 
+          'Precuela de la serie \'Yellowstone\', que sigue la historia de la familia Dutton en un viaje hacia el oeste a través de las Grandes Llanuras, para ir hacia el último bastión de la indómita América, durante el año 1883.',
+        poster_path: '/waLbm384SQDwLTCn6ttPqQS5kfV.jpg',
+        vote_average: 8.4,
+        vote_count: 404
+      }
+    ],
+    known_for_department: 'Acting',
+    name: 'Stephanie Nur',
+    popularity: 105.263,
+    profile_path: '/kpYEaUMYU60Cu8sZLWwDo4GZkVR.jpg'
+  },
+  {
+    adult: false,
+    gender: 2,
+    id: 2963,
+    known_for: [
+      {
+        adult: false,
+        backdrop_path: '/bNgqt819qpHcszjCzLCG5y16ldF.jpg',
+        genre_ids: Array(6) [ 16, 12, 10751, 14, 35, 28 ],
+        id: 49519,
+        media_type: 'movie',
+        original_language: 'en',
+        original_title: 'The Croods',
+        overview: 
+          'La película está ambientada en la prehistoria, donde Crug lidera a su familia más allá de la comodidad de su hogar después de que este sea destruido por un gran terremoto. Mientras intentan viajar por el desconocido y aterrador mundo, se encuentran con un nómada que cautiva a su clan, en especial a su hermana mayor, con su mente moderna.',
+        poster_path: '/3X3qtBTgKt5mCB30RJwbIjgjzdw.jpg',
+        release_date: '2013-03-15',
+        title: 'Los Croods',
+        video: false,
+        vote_average: 6.9,
+        vote_count: 6606
+      },
+      {
+        adult: false,
+        backdrop_path: '/xXWT0je8dTFFNBq6P2CeTZkPUu2.jpg',
+        genre_ids: [ 12, 28, 53, 9648 ],
+        id: 2059,
+        media_type: 'movie',
+        original_language: 'en',
+        original_title: 'National Treasure',
+        overview: 
+          'El buscador de tesoros Benjamin Franklin Gates ha dedicado su vida a buscar el legendario tesoro de Los Caballeros Templarios, del que se decía que era el botín más increíble de todos los tiempos y que estaba escondido en algún lugar de América. Durante siete generaciones, los miembros de la familia Gates buscaron las pistas que los Padres Fundadores de América dejaron, y recorrieron cada rincón del país en busca del tesoro. Ahora, el inconformista Ben al fin ha conseguido descubrir la pista definitiva que le llevará hasta el tesoro: un mapa oculto en el reverso de la Declaración de Independencia. La existencia del mapa llega a oídos del gran competidor de Gates, Ian Howe, y Ben se enfrenta a un difícil dilema: O es el primero en robar el documento más importante de América, que está protegido por el sistema de seguridad más sofisticado del mundo, o dejará que caiga en manos extremadamente peligrosas.',
+        poster_path: '/2c0gn21jGROhZEvdrraXV35mAKd.jpg',
+        release_date: '2004-11-19',
+        title: 'La búsqueda (National Treasure)',
+        video: false,
+        vote_average: 6.6,
+        vote_count: 5849
+      },
+      {
+        adult: false,
+        backdrop_path: '/1dlXEyAxdysMCRvq9lgIr6Jds9H.jpg',
+        genre_ids: [ 53, 28, 14 ],
+        id: 1250,
+        media_type: 'movie',
+        original_language: 'en',
+        original_title: 'Ghost Rider',
+        overview: 
+          'Adaptación del famoso cómic de la Marvel. Hace mucho tiempo, la superestrella de las acrobacias en moto, Johnny Blaze (Nicolas Cage) hizo un trato con el diablo para proteger a los que más quería: su padre y su novia de la juventud, Roxanne (Eva Mendes). Ahora, el diablo ha venido a cobrar su deuda. De día, Johnny es un motero acróbata temerario... pero de noche, en presencia del diablo, se convierte en Ghost Rider, un cazarecompensas de demonios deshonestos. Obligado a hacer la voluntad del diablo, Johnny está decidido a enfrentarse a su destino y utilizar su maldición y sus poderes para defender al inocente...',
+        poster_path: '/cuYXqugYkJdfIJxCAXlgZjwnuF0.jpg',
+        release_date: '2007-01-15',
+        title: 'Ghost Rider: El motorista fantasma',
+        video: false,
+        vote_average: 5.5,
+        vote_count: 5475
+      }
+    ],
+    known_for_department: 'Acting',
+    name: 'Nicolas Cage',
+    popularity: 153.797,
+    profile_path: '/ar33qcWbEgREn07ZpXv5Pbj8hbM.jpg'
+  },
+  {
+    adult: false,
+    gender: 1,
+    id: 1271681,
+    known_for: [
+      {
+        adult: false,
+        backdrop_path: '/mfnkxXWuh2Br097Qteq8ieqKfev.jpg',
+        genre_ids: [ 16, 35, 10751, 14 ],
+        id: 159824,
+        media_type: 'movie',
+        original_language: 'en',
+        original_title: 'Hotel Transylvania 2',
+        overview: 
+          'Todo parece mejorar en el Hotel Transilvania. La rígida norma establecida por Drácula de “sólo para monstruos” se ha suprimido y se aceptan también huéspedes humanos. Lo que preocupa al conde es que que su adorable nieto Dennis, medio humano y medio vampiro, no dé señal alguna de vampirismo. Aprovechando que Mavis ha ido a visitar a sus suegros humanos, Drácula recluta a sus amigos Frank, Murray, Wayne y Griffin para hacer que Dennis pase por un campamento de “entrenamiento de monstruos”. Lo que ignoran es que Vlad, el gruñón padre de Drácula, está a punto de llegar al hotel. Y cuando descubra que su bisnieto no es de sangre pura y que los humanos pueden frecuentar el establecimiento las cosas se complicarán.',
+        poster_path: '/ndYVcm1k3h81MRDhzZCI4SxDzGp.jpg',
+        release_date: '2015-09-21',
+        title: 'Hotel Transilvania 2',
+        video: false,
+        vote_average: 6.8,
+        vote_count: 5334
+      },
+      {
+        adult: false,
+        backdrop_path: '/wL8KA3zIJQPbbU5hJlyIdmmLZit.jpg',
+        genre_ids: [ 28, 35, 9648 ],
+        id: 514999,
+        media_type: 'movie',
+        original_language: 'en',
+        original_title: 'Murder Mystery',
+        overview: 
+          'Unos recién casados estadounidenses que visitan Europa en su luna de miel, quedan atrapados en el misterio de un asesinato después de presenciar un crimen.',
+        poster_path: '/vEgrjyNRXJa2rIdIfwfZ9y2BT3U.jpg',
+        release_date: '2019-05-25',
+        title: 'Criminales en el mar',
+        video: false,
+        vote_average: 6.3,
+        vote_count: 4078
+      },
+      {
+        adult: false,
+        backdrop_path: '/9N3KKOKpqEFe9GhHaIVHwk9N1Y.jpg',
+        genre_ids: [ 16, 35, 10751, 14 ],
+        id: 76492,
+        media_type: 'movie',
+        original_language: 'en',
+        original_title: 'Hotel Transylvania',
+        overview: 
+          'Drácula regenta un hotel en el que se alojan personajes como Frankenstein, la Momia, el Hombre Invisible, hombres-lobo... El problema del conde es que tiene una hija de espíritu aventurero a la que le resulta difícil controlar. El conflicto surge cuando se aloja en el hotel un ser humano que se siente atraído por la hija del dueño.',
+        poster_path: '/zvWlwBGQWuJ0wog65q1uS37BApC.jpg',
+        release_date: '2012-09-20',
+        title: 'Hotel Transilvania',
+        video: false,
+        vote_average: 7,
+        vote_count: 8033
+      }
+    ],
+    known_for_department: 'Acting',
+    name: 'Sunny Sandler',
+    popularity: 109.627,
+    profile_path: '/1tuv9SYa5RcoiWpf0INjdfvltTT.jpg'
+  },
+  {
+    adult: false,
+    gender: 2,
+    id: 18897,
+    known_for: [
+      {
+        adult: false,
+        backdrop_path: '/9FrpAtF87VKblKkDEiIZzYgO40K.jpg',
+        genre_ids: [ 28, 35, 80 ],
+        id: 2109,
+        media_type: 'movie',
+        original_language: 'en',
+        original_title: 'Rush Hour',
+        overview: 
+          'Dos detectives diferentes son asignados en un mismo caso. Ambos tendrán que adaptarse a las costumbres del otro para poder concluir su trabajo con éxito, pero no va a ser una tarea fácil. El detective inspector Lee es el rey de las artes marciales y pertenece a la Royal Hong Kong Police. Su pupila preferida es la hija de once años del Cónsul chino, de la cual el inspector Lee es su guardaespaldas y su mejor amigo. Esta muchacha es capturada y llevada a los Estados Unidos por un peligroso grupo criminal. Hasta allí tendrá que viajar el inspector y, donde se unirá a la investigación con un departamento del FBI y, concretamente, al detective James Carter, un arrogante e impulsivo agente de policía. La explosiva pareja tendrá que enfrentarse a una banda de criminales muy peligrosa, y contarán con la ayuda de Tania Johnson, una experta en artefactos explosivos.',
+        poster_path: '/rCXOwQnthbsagUPbZKXDTJ1tJ0Q.jpg',
+        release_date: '1998-09-18',
+        title: 'Hora punta',
+        video: false,
+        vote_average: 7,
+        vote_count: 4372
+      },
+      {
+        adult: false,
+        backdrop_path: '/zzFTSEAZcLGSbGipQVflSNUqpij.jpg',
+        genre_ids: [ 28, 35, 80 ],
+        id: 5175,
+        media_type: 'movie',
+        original_language: 'en',
+        original_title: 'Rush Hour 2',
+        overview: 
+          'El detective James Carter se encuentra de vacaciones en Hong Kong con su buen amigo el detective Lee. Mientras Carter está ansioso por dedicarse a la juerga y las mujeres, Lee tiene que enfrentarse con un jefe de las Tríadas, responsable del asesinato de dos funcionarios de la embajada norteamericana. Conforme avancen en la investigación, descubrirán una trama de distribución de billetes falsos.',
+        poster_path: '/4XAxs9MQgQ4MPpAMcn6Thpj96Zi.jpg',
+        release_date: '2001-08-03',
+        title: 'Hora punta 2',
+        video: false,
+        vote_average: 6.7,
+        vote_count: 3683
+      },
+      {
+        adult: false,
+        backdrop_path: '/ozsLB1HRCN6ZAmJN89pWtoiAwnb.jpg',
+        genre_ids: [ 28, 35, 80 ],
+        id: 5174,
+        media_type: 'movie',
+        original_language: 'en',
+        original_title: 'Rush Hour 3',
+        overview: 
+          'El corazón de París esconde un secreto mortal. Al otro lado del mundo, en Los Ángeles, el embajador Han está a punto de divulgar ese secreto. Tiene en su poder información sobre los mecanismos internos de las Tríadas, el sindicato del crimen más poderoso y más conocido del mundo. El embajador ha descubierto la identidad de Shy Shen, elemento clave del vasto anillo del crimen, y está a punto de revelarlo al Tribunal Penal Mundial, hasta que la bala de un asesino lo silencia para siempre. Las Tríadas harán cualquier cosa para asegurarse de que sus secretos permanezcan enterrados, y solamente existe una esperanza para poder detenerlos… El detective Carter, del departamento de policía de Los Ángeles, y el inspector chino Lee viajan a París para detener una conspiración criminal a nivel global y para salvar la vida de un viejo amigo: la hija del embajador Han, Soo Yung.',
+        poster_path: '/2UeIKPirME0l4UeUuv5TklDezR4.jpg',
+        release_date: '2007-08-08',
+        title: 'Hora punta 3',
+        video: false,
+        vote_average: 6.4,
+        vote_count: 2900
+      }
+    ],
+    known_for_department: 'Acting',
+    name: 'Jackie Chan',
+    popularity: 106.002,
+    profile_path: '/nraZoTzwJQPHspAVsKfgl3RXKKa.jpg'
+  },
+  {
+    adult: false,
+    gender: 1,
+    id: 2201315,
+    known_for: [
+      {
+        backdrop_path: '/jKbqVjCOOL2P8cP1VNxbC2h31Re.jpg',
+        first_air_date: '2019-01-11',
+        genre_ids: [ 35, 18 ],
+        id: 81356,
+        media_type: 'tv',
+        name: 'Sex Education',
+        origin_country: [ 'GB' ],
+        original_language: 'en',
+        original_name: 'Sex Education',
+        overview: 
+          'Como el inseguro de Otis tiene respuesta para cualquier duda sobre sexo gracias a que su madre es sexóloga, una compañera lo anima a abrir una "clínica" en el instituto.',
+        poster_path: '/6eGNE3huNFjBe5Zayx3XFqII7nL.jpg',
+        vote_average: 8.3,
+        vote_count: 6590
+      },
+      {
+        adult: false,
+        backdrop_path: '/ctMserH8g2SeOAnCw5gFjdQF8mo.jpg',
+        genre_ids: [ 35, 12, 14 ],
+        id: 346698,
+        media_type: 'movie',
+        original_language: 'en',
+        original_title: 'Barbie',
+        overview: 
+          'Barbie vive en Barbieland donde todo es ideal y lleno de música y color. Un buen día decide conocer el mundo real. Cuando el CEO de Mattel se entere, tratará de evitarlo a toda costa y devolver a Barbie a una caja.',
+        poster_path: '/fNtqD4BTFj0Bgo9lyoAtmNFzxHN.jpg',
+        release_date: '2023-07-19',
+        title: 'Barbie',
+        video: false,
+        vote_average: 7.3,
+        vote_count: 4990
+      },
+      {
+        adult: false,
+        backdrop_path: '/lRbDyjI7HEaXxflFQbYpqHRGFBJ.jpg',
+        genre_ids: [ 9648, 80, 53 ],
+        id: 505026,
+        media_type: 'movie',
+        original_language: 'en',
+        original_title: 'Death on the Nile',
+        overview: 
+          'Vuelven las pesquisas del célebre detective Hércules Poirot. Esta vez, durante un viaje en crucero por el Nilo, Poirot deberá investigar el misterioso asesinato de una joven heredera sin explicación aparente. Esta secuela de Asesinato en el Orient Express (2017) es la adaptación de la novela Muerte en el Nilo (1937) de Agatha Christie.',
+        poster_path: '/sWB5i8r8EprS75q7rSGCszOrOH0.jpg',
+        release_date: '2022-02-09',
+        title: 'Muerte en el Nilo',
+        video: false,
+        vote_average: 6.5,
+        vote_count: 3030
+      }
+    ],
+    known_for_department: 'Acting',
+    name: 'Emma Mackey',
+    popularity: 85.804,
+    profile_path: '/y8nDoKXpyNViFL8Eam4Ey1PkgQ6.jpg'
+  },
+  {
+    adult: false,
+    gender: 2,
+    id: 6384,
+    known_for: [
+      {
+        adult: false,
+        backdrop_path: '/oMsxZEvz9a708d49b6UdZK1KAo5.jpg',
+        genre_ids: [ 28, 878 ],
+        id: 603,
+        media_type: 'movie',
+        original_language: 'en',
+        original_title: 'The Matrix',
+        overview: 
+          'Thomas Anderson lleva una doble vida: por el día es programador en una importante empresa de software, y por la noche un hacker informático llamado Neo. Su vida no volverá a ser igual cuando unos misteriosos personajes le inviten a descubrir la respuesta a la pregunta que no le deja dormir: ¿qué es Matrix?',
+        poster_path: '/qK76PKQLd6zlMn0u83Ej9YQOqPL.jpg',
+        release_date: '1999-03-30',
+        title: 'Matrix',
+        video: false,
+        vote_average: 8.2,
+        vote_count: 23809
+      },
+      {
+        adult: false,
+        backdrop_path: '/7dzngS8pLkGJpyeskCFcjPO9qLF.jpg',
+        genre_ids: [ 28, 53 ],
+        id: 245891,
+        media_type: 'movie',
+        original_language: 'en',
+        original_title: 'John Wick',
+        overview: 
+          'John Wick es un antiguo asesino a sueldo de Nueva York que se había retirado de la profesión después de perder a su esposa. Pero, al descubrir la oscura trama que la mafia había planeado para acabar con él, arrebatándole lo que más quería, volverá a introducirse en el negocio, esta vez por su cuenta, para vengarse.',
+        poster_path: '/mHJX5D5FKKoC0GWUAWFq2qJZrPv.jpg',
+        release_date: '2014-10-22',
+        title: 'John Wick (Otro día para matar)',
+        video: false,
+        vote_average: 7.4,
+        vote_count: 17915
+      },
+      {
+        adult: false,
+        backdrop_path: '/r17jFHAemzcWPPtoO0UxjIX0xas.jpg',
+        genre_ids: [ 28, 53, 80 ],
+        id: 324552,
+        media_type: 'movie',
+        original_language: 'en',
+        original_title: 'John Wick: Chapter 2',
+        overview: 
+          'El legendario asesino John Wick (Keanu Reeves) se ve obligado a salir del retiro por un ex-asociado que planea obtener el control de un misterioso grupo internacional de asesinos. Obligado a ayudarlo por un juramento de sangre, John emprende un viaje a Roma lleno de adrenalina estremecedora para pelear contra los asesinos más peligrosos del mundo.',
+        poster_path: '/aSmLqVTFeh9cQkcO8RWzz1gR0ez.jpg',
+        release_date: '2017-02-08',
+        title: 'John Wick: Pacto de sangre',
+        video: false,
+        vote_average: 7.3,
+        vote_count: 12003
+      }
+    ],
+    known_for_department: 'Acting',
+    name: 'Keanu Reeves',
+    popularity: 92.721,
+    profile_path: '/4D0PpNI0kmP58hgrwGC3wCjxhnm.jpg'
+  },
+  {
+    adult: false,
+    gender: 1,
+    id: 1704579,
+    known_for: [
+      {
+        adult: false,
+        backdrop_path: '/uN005iCKRR900Xhx0HEvU4MbYN1.jpg',
+        genre_ids: [ 28, 878, 27 ],
+        id: 345940,
+        media_type: 'movie',
+        original_language: 'en',
+        original_title: 'The Meg',
+        overview: 
+          'Un sumergible de aguas profundas que forma parte de un programa internacional de vigilancia submarina, ha sido atacado por una enorme criatura que se creía extinta. Ahora está averiado en el fondo de la fosa oceánica más profunda del Pacífico con su tripulación atrapada en el interior. El tiempo se acaba y, en contra de los deseos de su hija Suyin (Li Bingbing), un visionario oceanógrafo chino (Winston Chao) contrata a Jonas Taylor (Jason Statham), un especialista en rescate en aguas profundas. Su misión será salvar a la tripulación y también al océano de una amenaza imparable: un tiburón prehistórico de 23 metros conocido con el nombre de Megalodón.',
+        poster_path: '/pQARFwPxjZ04ylcE5PmWfqQI1Jw.jpg',
+        release_date: '2018-08-09',
+        title: 'Megalodón',
+        video: false,
+        vote_average: 6.3,
+        vote_count: 7010
+      },
+      {
+        adult: false,
+        backdrop_path: '/8pjWz2lt29KyVGoq1mXYu6Br7dE.jpg',
+        genre_ids: [ 28, 878, 27 ],
+        id: 615656,
+        media_type: 'movie',
+        original_language: 'en',
+        original_title: 'Meg 2: The Trench',
+        overview: 
+          'Una exploración submarina en las profundidades del océano se convierte en una espiral de caos cuando una malévola operación minera amenaza la misión y obliga al equipo de investigación a librar una arriesgada batalla por la supervivencia. Secuela de \'The Meg\' (2018).',
+        poster_path: '/mBgynPDplmo5JTY9VfGqY35OjDu.jpg',
+        release_date: '2023-08-02',
+        title: 'Megalodón 2: La fosa',
+        video: false,
+        vote_average: 7,
+        vote_count: 1942
+      },
+      {
+        adult: false,
+        backdrop_path: '/z4e8SDubBqdfTjZMJcDa25eQk2j.jpg',
+        genre_ids: [ 18, 10749 ],
+        id: 306758,
+        media_type: 'movie',
+        original_language: 'zh',
+        original_title: '有一个地方只有我们知道',
+        overview: '',
+        poster_path: '/hYizhrYI3rRmR2fibn8CkzYvw1D.jpg',
+        release_date: '2015-02-14',
+        title: '有一个地方只有我们知道',
+        video: false,
+        vote_average: 6.2,
+        vote_count: 20
+      }
+    ],
+    known_for_department: 'Acting',
+    name: 'Shuya Sophia Cai',
+    popularity: 99.186,
+    profile_path: '/8zzSyNhoFJQ3eRqaqIgiryoONJB.jpg'
+  },
+  {
+    adult: false,
+    gender: 2,
+    id: 1566805,
+    known_for: [
+      {
+        adult: false,
+        backdrop_path: '/oqP1qEZccq5AD9TVTIaO6IGUj7o.jpg',
+        genre_ids: [ 14, 28, 12 ],
+        id: 455476,
+        media_type: 'movie',
+        original_language: 'en',
+        original_title: 'Knights of the Zodiac',
+        overview: 
+          'Seiya, un testarudo adolescente callejero, se pasa el tiempo luchando por dinero mientras busca a su hermana secuestrada. Cuando en una de sus peleas se le revelan poderes místicos que desconocía, Seiya se ve inmerso en un mundo de santos en guerra, antiguos entrenamientos mágicos y una diosa reencarnada que necesita su protección.',
+        poster_path: '/zqhO44oc0pWM32seJeXMcjPLvwV.jpg',
+        release_date: '2023-04-27',
+        title: 'Los Caballeros del Zodíaco',
+        video: false,
+        vote_average: 6.6,
+        vote_count: 816
+      },
+      {
+        adult: false,
+        backdrop_path: '/oMaj75G2WFw66xI1TREg1hrToSg.jpg',
+        genre_ids: [ 28, 14, 878, 12 ],
+        id: 268896,
+        media_type: 'movie',
+        original_language: 'en',
+        original_title: 'Pacific Rim: Uprising',
+        overview: 
+          'Un futuro cercano. Después de la primera invasión que sufrió la humanidad, la lucha aun no ha terminado. El planeta vuelve a ser asediado por los Kaiju, una raza de alienígenas colosales que emergen desde un portal interdimensional, con el objetivo de destruir a la raza humana.  Ante esta nueva amenaza para la cual los humanos no están preparados, los Jaegers, robots gigantes de guerra pilotados por dos personas para sobrellevar la inmensa carga neural que conlleva manipularlos, ya no están a la altura de lo que se les viene encima. Será entonces cuando los supervivientes de la primera invasión, además de nuevos personajes como el hijo de Pentecost (John Boyega), tendrán que idear la manera de sorprender al enorme enemigo, apostando por nuevas estrategias defensivas y de ataque. Con la Tierra en ruinas e intentando reconstruirse, esta nueva batalla puede ser decisiva para el futuro.',
+        poster_path: '/cAQRgMxyuy3qhjCitR0hHJhEPAI.jpg',
+        release_date: '2018-03-21',
+        title: 'Pacific Rim: Insurrección',
+        video: false,
+        vote_average: 6.1,
+        vote_count: 4525
+      },
+      {
+        backdrop_path: '/aRKQdF6AGbhnF9IAyJbte5epH5R.jpg',
+        first_air_date: '2023-08-31',
+        genre_ids: [ 10759, 10765 ],
+        id: 111110,
+        media_type: 'tv',
+        name: 'ONE PIECE',
+        origin_country: [ 'US' ],
+        original_language: 'en',
+        original_name: 'ONE PIECE',
+        overview: 
+          'El joven pirata Monkey D. Luffy y su variopinta tripulación emprenden un viaje épico en busca de un tesoro.',
+        poster_path: '/fsQ2KHbZk12z3h3dba2ActMEudj.jpg',
+        vote_average: 8.3,
+        vote_count: 614
+      }
+    ],
+    known_for_department: 'Acting',
+    name: 'Mackenyu',
+    popularity: 75.798,
+    profile_path: '/kIrLJmJCGc2fRAkVnBJXwAL7gAM.jpg'
+  },
+  {
+    adult: false,
+    gender: 1,
+    id: 2644232,
+    known_for: [
+      {
+        adult: false,
+        backdrop_path: '/iIvQnZyzgx9TkbrOgcXx0p7aLiq.jpg',
+        genre_ids: [ 27, 53 ],
+        id: 1008042,
+        media_type: 'movie',
+        original_language: 'en',
+        original_title: 'Talk to Me',
+        overview: 
+          'La solitaria adolescente Mia se engancha a la emoción de invocar espíritus utilizando una mano embalsamada, pero cuando se enfrenta a un alma que dice ser su madre muerta, desata una plaga de fuerzas sobrenaturales y se debate entre decidir en quién puede confiar: en los vivos o en los muertos.',
+        poster_path: '/rS8fjd6dYcf64v3ZhAE6fKrxoaF.jpg',
+        release_date: '2023-07-26',
+        title: 'Háblame',
+        video: false,
+        vote_average: 7.2,
+        vote_count: 849
+      },
+      {
+        backdrop_path: '/UHrSKXE4qOg6lHHtgOvTIYYUcv.jpg',
+        first_air_date: '2019-09-26',
+        genre_ids: [ 35 ],
+        id: 93479,
+        media_type: 'tv',
+        name: 'Frayed',
+        origin_country: [ 'AU', 'GB' ],
+        original_language: 'en',
+        original_name: 'Frayed',
+        overview: '',
+        poster_path: '/g4cdvm4RGeIs3n5NwIYroFoaum3.jpg',
+        vote_average: 7.9,
+        vote_count: 15
+      },
+      {
+        backdrop_path: '/8iIZ62QGjKmOS7lHOHoM4Mmd77p.jpg',
+        first_air_date: '2021-03-03',
+        genre_ids: [ 18 ],
+        id: 119925,
+        media_type: 'tv',
+        name: 'Amazing Grace',
+        origin_country: [ 'AU' ],
+        original_language: 'en',
+        original_name: 'Amazing Grace',
+        overview: 
+          'La serie se centra en la partera Grace y sus apasionados colegas en un centro de partos no convencional adscrito a un importante hospital de la ciudad. Una feroz defensora de sus madres embarazadas, el dudoso equilibrio trabajo/vida de Grace está a punto de ponerse aún más caótico cuando una nueva llegada al centro de partos cambia su vida para siempre.',
+        poster_path: '/oBvdu6mTvvVZaLZCvNzvHb9iW6W.jpg',
+        vote_average: 8,
+        vote_count: 4
+      }
+    ],
+    known_for_department: 'Acting',
+    name: 'Alexandra Jensen',
+    popularity: 82.159,
+    profile_path: '/jzY7CkJt40N3eYV3bKsRZq4DrjU.jpg'
+  },
+  {
+    adult: false,
+    gender: 2,
+    id: 73968,
+    known_for: [
+      {
+        adult: false,
+        backdrop_path: '/69EFgWWPFWbRNHmQgYdSnyJ94Ge.jpg',
+        genre_ids: [ 28, 12, 878 ],
+        id: 49521,
+        media_type: 'movie',
+        original_language: 'en',
+        original_title: 'Man of Steel',
+        overview: 
+          'Un niño descubre que posee poderes extraordinarios y que no pertenece a este planeta. En su juventud, viaja para descubrir sus orígenes y las razones por las cuales ha sido enviado a la Tierra. Pero el héroe que lleva dentro tiene que emerger para que pueda salvar al mundo de la aniquilación y convertirse en el símbolo de esperanza para la humanidad.',
+        poster_path: '/5JW44QGgpEWx4aWXM0uVSi2xtrI.jpg',
+        release_date: '2013-06-12',
+        title: 'El hombre de acero',
+        video: false,
+        vote_average: 6.6,
+        vote_count: 14305
+      },
+      {
+        adult: false,
+        backdrop_path: '/5fX1oSGuYdKgwWmUTAN5MNSQGzr.jpg',
+        genre_ids: [ 28, 12, 14 ],
+        id: 209112,
+        media_type: 'movie',
+        original_language: 'en',
+        original_title: 'Batman v Superman: Dawn of Justice',
+        overview: 
+          'Ante el temor de las acciones que pueda llevar a cabo Superman, el vigilante de Gotham City aparece para poner a raya al superhéroe de Metrópolis, mientras que la opinión pública debate cuál es realmente el héroe que necesitan. El hombre de acero y Batman se sumergen en una contienda territorial, pero las cosas se complican cuando una nueva y peligrosa amenaza surge rápidamente, poniendo en jaque la existencia de la humanidad.',
+        poster_path: '/mS3t9puIjLKgoex82cu9d6G0835.jpg',
+        release_date: '2016-03-23',
+        title: 'Batman vs Superman: El amanecer de la Justicia',
+        video: false,
+        vote_average: 6,
+        vote_count: 17076
+      },
+      {
+        adult: false,
+        backdrop_path: '/2nyaeISu2xIxIgZYNpX4UayY8PN.jpg',
+        genre_ids: [ 28, 12, 878 ],
+        id: 141052,
+        media_type: 'movie',
+        original_language: 'en',
+        original_title: 'Justice League',
+        overview: 
+          'Motivado por la fe que había recuperado en la humanidad e inspirado por la acción altruista de Superman, Bruce Wayne recluta la ayuda de su nueva aliada, Diana Prince, para enfrentarse a un enemigo aún mayor. Juntos, Batman y Wonder Woman se mueven rápidamente para intentar encontrar y reclutar un equipo de metahumanos que combata esta nueva amenaza. El problema es que a pesar de la formación de esta liga de héroes sin precedentes (Batman, Wonder Woman, Aquaman, Cyborg y Flash) puede que sea demasiado tarde para salvar el planeta de una amenaza de proporciones catastróficas.',
+        poster_path: '/wUWqnavD8iGZ5F4xXhWlrtEzKjV.jpg',
+        release_date: '2017-11-15',
+        title: 'Liga de la Justicia',
+        video: false,
+        vote_average: 6.1,
+        vote_count: 12260
+      }
+    ],
+    known_for_department: 'Acting',
+    name: 'Henry Cavill',
+    popularity: 55.57,
+    profile_path: '/iWdKjMry5Pt7vmxU7bmOQsIUyHa.jpg'
+  },
+  {
+    adult: false,
+    gender: 2,
+    id: 123500,
+    known_for: [
+      {
+        backdrop_path: '/zVMuhR40BM3OpiVRWXiNI3HC8GM.jpg',
+        first_air_date: '2021-06-06',
+        genre_ids: [ 18 ],
+        id: 126116,
+        media_type: 'tv',
+        name: 'Condena',
+        origin_country: [ 'GB' ],
+        original_language: 'en',
+        original_name: 'Time',
+        overview: 
+          'Un prisionero consumido por la culpa, un oficial con una elección imposible. ¿Qué se necesita para sobrevivir? Una tensa historia de castigo y principios, protagonizada por Sean Bean y Stephen Graham.',
+        poster_path: '/nSxE6STKTRWb5XLNJgH6q2AKGas.jpg',
+        vote_average: 7.7,
+        vote_count: 142
+      },
+      {
+        adult: false,
+        backdrop_path: '/9mtujSYIpHNc2dfcGZt8cML2Hvh.jpg',
+        genre_ids: [ 28, 80, 27, 53 ],
+        id: 821792,
+        media_type: 'movie',
+        original_language: 'en',
+        original_title: 'Bull',
+        overview: 
+          'Después de estar 10 años ausente, el sicario de una banda regresa a sus viejos compinches para encontrar a su hijo perdido y buscar venganza contra aquellos que le traicionaron y le dieron por muerto.',
+        poster_path: '/wWDttpdPe0fNA1l6fzbiyy8cBQK.jpg',
+        release_date: '2021-11-05',
+        title: 'Bull',
+        video: false,
+        vote_average: 6.6,
+        vote_count: 104
+      },
+      {
+        adult: false,
+        backdrop_path: '/xiW0dA9Q62dKIWW7IyiVzJIlmMr.jpg',
+        genre_ids: [ 27 ],
+        id: 39814,
+        media_type: 'movie',
+        original_language: 'en',
+        original_title: 'Salvage',
+        overview: 
+          'Cuando un contenedor llega a tierra, los residentes de una pequeña población adormecida se verán sumidos en la violencia, el terror y la paranoia. Acorralada por los militares, una madre soltera debe superar todos los obstáculos para salvar a su hija',
+        poster_path: '/vFFDNBxaXGN57NgqNUk0kqDijLD.jpg',
+        release_date: '2010-03-22',
+        title: 'Salvage',
+        video: false,
+        vote_average: 5.1,
+        vote_count: 38
+      }
+    ],
+    known_for_department: 'Acting',
+    name: 'Kevin Harvey',
+    popularity: 73.363,
+    profile_path: '/iCoXqgY8cENDHiWv2ka7ZhLZtZV.jpg'
+  }
+]

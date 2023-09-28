@@ -57,6 +57,16 @@ export const FetchMovieRecomendations = async ({ movieId }) => {
   return data;
 };
 
+export const FetchActor = async () => {
+  const res = await fetch(
+    `https://api.themoviedb.org/3/person/popular?language=es-PE`,
+    options
+  );
+
+  const data = await res.json();
+  return data;
+};
+
 export const FetchDetailActor = async ({ actorId }) => {
   const res = await fetch(
     `https://api.themoviedb.org/3/person/${actorId}?append_to_response=movie_credits%2Cexternal_ids&language=es-PE`,
