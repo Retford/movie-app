@@ -1,5 +1,4 @@
 import { baseUrlImage } from '@/app/fetch/FetchMovie';
-import Image from 'next/image';
 import Link from 'next/link';
 
 const CardSimilar = ({ similarMovie }) => {
@@ -15,13 +14,13 @@ const CardSimilar = ({ similarMovie }) => {
   return (
     <>
       <Link href={`${id}`}>
-        <Image
+        <img
           src={`${pathUrlImage}`}
           width={200}
           height={200}
           alt={title}
           className='rounded-3xl object-cover h-[311px] w-[345px]'
-        ></Image>
+        />
       </Link>
       <div className='pt-4 font-bold'>{title}</div>
       <span className='text-ms font-bold text-green-500'>{popularity}</span>

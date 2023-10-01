@@ -1,5 +1,4 @@
 import { baseUrlImage } from '@/app/fetch/FetchMovie';
-import Image from 'next/image';
 import Link from 'next/link';
 
 const CardInterpretacion = ({ movieInterpretacion }) => {
@@ -17,13 +16,13 @@ const CardInterpretacion = ({ movieInterpretacion }) => {
   return (
     <>
       <Link href={`/${id}`}>
-        <Image
+        <img
           src={`${postUrlImage}`}
           width={200}
           height={200}
           alt={title}
           className='rounded-3xl object-cover h-[311px] w-[345px]'
-        ></Image>
+        />
       </Link>
       <div className='pt-4'>{title}</div>
       <span className='text-ms font-bold'>Personaje: {character}</span>

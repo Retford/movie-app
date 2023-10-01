@@ -6,7 +6,6 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 import { BsSearch } from 'react-icons/bs';
 import { useParams, useRouter } from 'next/navigation';
 import NavBarMobile from './NavBarMobile';
-import Image from 'next/image';
 
 const NavBar = () => {
   const router = useRouter();
@@ -36,13 +35,13 @@ const NavBar = () => {
       <nav className='flex justify-between items-center p-6 bg-[#480048] lg:rounded rounded-b-none text-white'>
         <div className='text-white flex flex-grow justify-between items-center lg:flex-grow-0 gap-3'>
           <Link href='/'>
-            <Image
+            <img
               src='/logo.png'
               alt='MovieApp'
               width={60}
               height={60}
               className='xl:ml-4 3xl:ml-14'
-            ></Image>
+            />
           </Link>
           <div className='lg:hidden relative sm:w-4/5 w-[70%]'>
             <input

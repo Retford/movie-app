@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import { format } from 'date-fns';
 import { es } from 'date-fns/locale';
@@ -7,12 +6,7 @@ const LoadingCard = ({ results, params, query }) => {
   if (results.length === 0) {
     return (
       <div className='h-[calc(100vh-14rem)] xl:h-[calc(100vh-5rem)] flex flex-col justify-center items-center xl:text-xl gap-8 bg-white'>
-        <Image
-          src='/dontSearch.jpg'
-          alt="Don't Movie"
-          width={500}
-          height={500}
-        ></Image>
+        <img src='/dontSearch.jpg' alt="Don't Movie" width={500} height={500} />
         <div className='text-black font-black flex flex-wrap justify-center gap-4'>
           <span>No hay resultados de Búsqueda para: </span>
           <span className='bg-[#CE0000] text-white p-1 px-2 rounded'>
@@ -54,13 +48,13 @@ const LoadingCard = ({ results, params, query }) => {
             key={id}
           >
             <div className='relative w-full min-h-[225px] overflow-hidden md:min-w-[210px]'>
-              <Image
+              <img
                 src={`${pathUrlImage}`}
                 alt={title}
                 width={500}
                 height={500}
                 className='rounded-md box-border block max-h-[250px] object-cover  hover:scale-105 transition duration-100 md:min-w-[210px]'
-              ></Image>
+              />
             </div>
             <div className='text-white'>
               <h2 className='font-bold text-sm xl:text-xl'> </h2>

@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import { baseUrlImage } from '@/app/fetch/FetchMovie';
 import { BsInstagram, BsTwitter } from 'react-icons/bs';
 import { GrFacebook } from 'react-icons/gr';
@@ -68,13 +67,13 @@ const DetailActor = ({ detailActor }) => {
     <main className='max-w-screen xl:max-w-screen-xl xl:m-auto p-4 lg:pt-16 m-4'>
       <div className='flex gap-6 lg:gap-11 text-white flex-wrap lg:flex-nowrap justify-center'>
         <div className='overflow-hidden rounded-md h-[425px] w-[250px] block md:min-h-[510px] md:max-w-[340px] md:max-h-[510px] z-10 lg:min-w-[15rem]'>
-          <Image
+          <img
             src={`${postUrlImage}`}
             alt={name}
             height={500}
             width={500}
             className='rounded-md'
-          ></Image>
+          />
           <div className='flex py-4 gap-8 justify-center'>
             <a
               href={`https://www.instagram.com/${external_ids.instagram_id}`}

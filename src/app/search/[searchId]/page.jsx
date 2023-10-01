@@ -1,4 +1,4 @@
-import { FetchSearchMovie, baseUrlImage } from '../../fetch/FetchMovie';
+import { FetchSearchMovie } from '../../fetch/FetchMovie';
 import CardMovie from '@/components/Movie/CardMovie';
 
 const PageSearch = async ({ params, searchParams }) => {

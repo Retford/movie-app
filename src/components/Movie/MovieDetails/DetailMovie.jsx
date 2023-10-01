@@ -1,5 +1,4 @@
 'use client';
-import Image from 'next/image';
 
 import { AiFillStar } from 'react-icons/ai';
 import YouTube from 'react-youtube';
@@ -93,12 +92,7 @@ const DetailMovie = ({
     <main className='max-w-screen xl:max-w-screen-xl xl:m-auto p-4 lg:pt-16 m-4 min-h-[76.2vh]'>
       <div className='flex gap-6 lg:gap-11 text-white flex-wrap lg:flex-nowrap justify-center'>
         <div className='overflow-hidden rounded-md h-[300px] w-[250px] md:min-w-[340px] block md:min-h-[510px] md:max-w-[340px] md:max-h-[510px] z-10'>
-          <Image
-            src={`${postUrlImage}`}
-            alt={id}
-            height={500}
-            width={500}
-          ></Image>
+          <img src={`${postUrlImage}`} alt={title} height={500} width={500} />
         </div>
         <div className='flex flex-col gap-2 xl:max-w-2xl 2xl:min-w-[48rem]'>
           <div>
